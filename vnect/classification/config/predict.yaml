@@ -1,0 +1,35 @@
+# input, output path
+input: 20191212_182837.mp4
+output: ./output/
+
+#generate data
+data_path: /vnect/output/
+ignored_sample_path: None
+out_folder: ./classification/data/mydata/predict/
+
+# feeder
+feeder: classification.feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./classification/data/mydata/predict/predict_data_joint.npy
+  label_path: ./classification/data/mydata/predict/predict_label.pkl
+  debug: False
+
+# model
+model: classification.model.agcn.Model
+model_args:
+  num_class: 4
+  num_point: 21
+  num_person: 2
+  graph: classification.graph.my_graph.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+# test
+phase: predict
+device: [0,1]
+test_batch_size: 16
+weights: ./classification/runs/my_cs_agcn-49-4000.pt
+
+work_dir: ./classification/work_dir/my_agcn/
+model_saved_name: ./classification/runs/my_cs_agcn_test_joint
+save_score: True

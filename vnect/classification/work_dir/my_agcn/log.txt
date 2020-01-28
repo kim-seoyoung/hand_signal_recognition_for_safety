@@ -1,0 +1,1162 @@
+[ Wed Dec 11 12:54:25 2019 ] Parameters:
+{'nesterov': True, 'seed': 1, 'optimizer': 'SGD', 'config': 'config/my_subject_train.yaml', 'start_epoch': 0, 'print_log': True, 'base_lr': 0.1, 'save_score': False, 'model_args': {'num_class': 27, 'num_person': 2, 'graph': 'graph.my_graph.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_point': 21}, 'save_interval': 2, 'only_train_epoch': 0, 'device': [0, 1], 'log_interval': 100, 'feeder': 'feeders.feeder.Feeder', 'num_epoch': 50, 'only_train_part': False, 'ignore_weights': [], 'model': 'model.agcn.Model', 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'step': [30, 40], 'batch_size': 8, 'test_batch_size': 8, 'show_topk': [1, 5], 'weights': None, 'phase': 'train', 'work_dir': './work_dir/my_agcn', 'weight_decay': 0.0001, 'model_saved_name': './runs/my_cs_agcn', 'num_worker': 32, 'train_feeder_args': {'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'debug': False, 'random_shift': False, 'random_choose': False, 'window_size': -1, 'random_move': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'normalization': False}, 'warm_up_epoch': 0, 'eval_interval': 5}
+
+[ Wed Dec 11 12:54:25 2019 ] Training epoch: 1
+[ Wed Dec 11 12:54:42 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 12:54:42 2019 ] 	Time consumption: [Data]07%, [Network]92%
+[ Wed Dec 11 12:54:42 2019 ] Eval epoch: 1
+[ Wed Dec 11 12:54:46 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 12:54:46 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 12:54:46 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 12:54:46 2019 ] Training epoch: 2
+[ Wed Dec 11 12:55:00 2019 ] 	Mean training loss: 3.1765.
+[ Wed Dec 11 12:55:00 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:55:00 2019 ] Eval epoch: 2
+[ Wed Dec 11 12:55:04 2019 ] 	Mean test loss of 27 batches: 3.023213589632953.
+[ Wed Dec 11 12:55:04 2019 ] 	Top1: 10.70%
+[ Wed Dec 11 12:55:04 2019 ] 	Top5: 37.21%
+[ Wed Dec 11 12:55:04 2019 ] Training epoch: 3
+[ Wed Dec 11 12:55:19 2019 ] 	Mean training loss: 3.0732.
+[ Wed Dec 11 12:55:19 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:55:19 2019 ] Eval epoch: 3
+[ Wed Dec 11 12:55:22 2019 ] 	Mean test loss of 27 batches: 2.9792060057322183.
+[ Wed Dec 11 12:55:22 2019 ] 	Top1: 6.98%
+[ Wed Dec 11 12:55:22 2019 ] 	Top5: 38.14%
+[ Wed Dec 11 12:55:22 2019 ] Training epoch: 4
+[ Wed Dec 11 12:55:37 2019 ] 	Mean training loss: 2.9925.
+[ Wed Dec 11 12:55:37 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:55:37 2019 ] Eval epoch: 4
+[ Wed Dec 11 12:55:40 2019 ] 	Mean test loss of 27 batches: 3.075887423974496.
+[ Wed Dec 11 12:55:40 2019 ] 	Top1: 8.37%
+[ Wed Dec 11 12:55:40 2019 ] 	Top5: 39.07%
+[ Wed Dec 11 12:55:40 2019 ] Training epoch: 5
+[ Wed Dec 11 12:55:55 2019 ] 	Mean training loss: 2.9329.
+[ Wed Dec 11 12:55:55 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:55:55 2019 ] Eval epoch: 5
+[ Wed Dec 11 12:55:58 2019 ] 	Mean test loss of 27 batches: 3.141091373231676.
+[ Wed Dec 11 12:55:58 2019 ] 	Top1: 9.30%
+[ Wed Dec 11 12:55:58 2019 ] 	Top5: 36.74%
+[ Wed Dec 11 12:55:58 2019 ] Training epoch: 6
+[ Wed Dec 11 12:56:13 2019 ] 	Mean training loss: 2.9827.
+[ Wed Dec 11 12:56:13 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:56:13 2019 ] Eval epoch: 6
+[ Wed Dec 11 12:56:16 2019 ] 	Mean test loss of 27 batches: 3.296627371399491.
+[ Wed Dec 11 12:56:16 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 12:56:16 2019 ] 	Top5: 42.33%
+[ Wed Dec 11 12:56:16 2019 ] Training epoch: 7
+[ Wed Dec 11 12:56:31 2019 ] 	Mean training loss: 2.9794.
+[ Wed Dec 11 12:56:31 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 12:56:31 2019 ] Eval epoch: 7
+[ Wed Dec 11 12:56:34 2019 ] 	Mean test loss of 27 batches: 3.300776490458736.
+[ Wed Dec 11 12:56:34 2019 ] 	Top1: 13.95%
+[ Wed Dec 11 12:56:34 2019 ] 	Top5: 42.79%
+[ Wed Dec 11 12:56:34 2019 ] Training epoch: 8
+[ Wed Dec 11 12:56:49 2019 ] 	Mean training loss: 2.8862.
+[ Wed Dec 11 12:56:49 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:56:49 2019 ] Eval epoch: 8
+[ Wed Dec 11 12:56:52 2019 ] 	Mean test loss of 27 batches: 3.1584152292322227.
+[ Wed Dec 11 12:56:52 2019 ] 	Top1: 13.95%
+[ Wed Dec 11 12:56:52 2019 ] 	Top5: 40.93%
+[ Wed Dec 11 12:56:52 2019 ] Training epoch: 9
+[ Wed Dec 11 12:57:07 2019 ] 	Mean training loss: 2.8170.
+[ Wed Dec 11 12:57:07 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:57:07 2019 ] Eval epoch: 9
+[ Wed Dec 11 12:57:11 2019 ] 	Mean test loss of 27 batches: 3.029623791023537.
+[ Wed Dec 11 12:57:11 2019 ] 	Top1: 16.74%
+[ Wed Dec 11 12:57:11 2019 ] 	Top5: 50.23%
+[ Wed Dec 11 12:57:11 2019 ] Training epoch: 10
+[ Wed Dec 11 12:57:25 2019 ] 	Mean training loss: 2.6846.
+[ Wed Dec 11 12:57:25 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:57:25 2019 ] Eval epoch: 10
+[ Wed Dec 11 12:57:29 2019 ] 	Mean test loss of 27 batches: 3.145397504170736.
+[ Wed Dec 11 12:57:29 2019 ] 	Top1: 15.35%
+[ Wed Dec 11 12:57:29 2019 ] 	Top5: 47.44%
+[ Wed Dec 11 12:57:29 2019 ] Training epoch: 11
+[ Wed Dec 11 12:57:44 2019 ] 	Mean training loss: 2.5830.
+[ Wed Dec 11 12:57:44 2019 ] 	Time consumption: [Data]15%, [Network]85%
+[ Wed Dec 11 12:57:44 2019 ] Eval epoch: 11
+[ Wed Dec 11 12:57:47 2019 ] 	Mean test loss of 27 batches: 3.045421529699255.
+[ Wed Dec 11 12:57:47 2019 ] 	Top1: 15.81%
+[ Wed Dec 11 12:57:47 2019 ] 	Top5: 54.42%
+[ Wed Dec 11 12:57:47 2019 ] Training epoch: 12
+[ Wed Dec 11 12:58:02 2019 ] 	Mean training loss: 2.5317.
+[ Wed Dec 11 12:58:02 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:58:02 2019 ] Eval epoch: 12
+[ Wed Dec 11 12:58:06 2019 ] 	Mean test loss of 27 batches: 2.981228227968569.
+[ Wed Dec 11 12:58:06 2019 ] 	Top1: 17.67%
+[ Wed Dec 11 12:58:06 2019 ] 	Top5: 58.60%
+[ Wed Dec 11 12:58:06 2019 ] Training epoch: 13
+[ Wed Dec 11 12:58:20 2019 ] 	Mean training loss: 2.3476.
+[ Wed Dec 11 12:58:20 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:58:20 2019 ] Eval epoch: 13
+[ Wed Dec 11 12:58:24 2019 ] 	Mean test loss of 27 batches: 3.327809148364597.
+[ Wed Dec 11 12:58:24 2019 ] 	Top1: 21.86%
+[ Wed Dec 11 12:58:24 2019 ] 	Top5: 62.33%
+[ Wed Dec 11 12:58:24 2019 ] Training epoch: 14
+[ Wed Dec 11 12:58:38 2019 ] 	Mean training loss: 2.2929.
+[ Wed Dec 11 12:58:38 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:58:38 2019 ] Eval epoch: 14
+[ Wed Dec 11 12:58:42 2019 ] 	Mean test loss of 27 batches: 3.0302611545280174.
+[ Wed Dec 11 12:58:42 2019 ] 	Top1: 23.26%
+[ Wed Dec 11 12:58:42 2019 ] 	Top5: 60.00%
+[ Wed Dec 11 12:58:42 2019 ] Training epoch: 15
+[ Wed Dec 11 12:58:56 2019 ] 	Mean training loss: 2.2405.
+[ Wed Dec 11 12:58:56 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:58:56 2019 ] Eval epoch: 15
+[ Wed Dec 11 12:59:00 2019 ] 	Mean test loss of 27 batches: 3.8446292259075023.
+[ Wed Dec 11 12:59:00 2019 ] 	Top1: 25.12%
+[ Wed Dec 11 12:59:00 2019 ] 	Top5: 64.19%
+[ Wed Dec 11 12:59:00 2019 ] Training epoch: 16
+[ Wed Dec 11 12:59:14 2019 ] 	Mean training loss: 2.1299.
+[ Wed Dec 11 12:59:14 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:59:14 2019 ] Eval epoch: 16
+[ Wed Dec 11 12:59:18 2019 ] 	Mean test loss of 27 batches: 5.416779209066321.
+[ Wed Dec 11 12:59:18 2019 ] 	Top1: 20.47%
+[ Wed Dec 11 12:59:18 2019 ] 	Top5: 66.05%
+[ Wed Dec 11 12:59:18 2019 ] Training epoch: 17
+[ Wed Dec 11 12:59:32 2019 ] 	Mean training loss: 2.0157.
+[ Wed Dec 11 12:59:32 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:59:32 2019 ] Eval epoch: 17
+[ Wed Dec 11 12:59:36 2019 ] 	Mean test loss of 27 batches: 3.4258658753501043.
+[ Wed Dec 11 12:59:36 2019 ] 	Top1: 29.30%
+[ Wed Dec 11 12:59:36 2019 ] 	Top5: 61.86%
+[ Wed Dec 11 12:59:36 2019 ] Training epoch: 18
+[ Wed Dec 11 12:59:50 2019 ] 	Mean training loss: 2.0010.
+[ Wed Dec 11 12:59:50 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 12:59:50 2019 ] Eval epoch: 18
+[ Wed Dec 11 12:59:54 2019 ] 	Mean test loss of 27 batches: 4.506486614545186.
+[ Wed Dec 11 12:59:54 2019 ] 	Top1: 24.65%
+[ Wed Dec 11 12:59:54 2019 ] 	Top5: 60.00%
+[ Wed Dec 11 12:59:54 2019 ] Training epoch: 19
+[ Wed Dec 11 13:00:08 2019 ] 	Mean training loss: 1.9363.
+[ Wed Dec 11 13:00:08 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:00:08 2019 ] Eval epoch: 19
+[ Wed Dec 11 13:00:12 2019 ] 	Mean test loss of 27 batches: 3.877825697263082.
+[ Wed Dec 11 13:00:12 2019 ] 	Top1: 35.81%
+[ Wed Dec 11 13:00:12 2019 ] 	Top5: 67.44%
+[ Wed Dec 11 13:00:12 2019 ] Training epoch: 20
+[ Wed Dec 11 13:00:26 2019 ] 	Mean training loss: 1.8910.
+[ Wed Dec 11 13:00:26 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:00:26 2019 ] Eval epoch: 20
+[ Wed Dec 11 13:00:30 2019 ] 	Mean test loss of 27 batches: 3.859209246105618.
+[ Wed Dec 11 13:00:30 2019 ] 	Top1: 28.84%
+[ Wed Dec 11 13:00:30 2019 ] 	Top5: 68.84%
+[ Wed Dec 11 13:00:30 2019 ] Training epoch: 21
+[ Wed Dec 11 13:00:44 2019 ] 	Mean training loss: 1.7703.
+[ Wed Dec 11 13:00:44 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:00:44 2019 ] Eval epoch: 21
+[ Wed Dec 11 13:00:48 2019 ] 	Mean test loss of 27 batches: 3.2243629738136574.
+[ Wed Dec 11 13:00:48 2019 ] 	Top1: 31.16%
+[ Wed Dec 11 13:00:48 2019 ] 	Top5: 73.02%
+[ Wed Dec 11 13:00:48 2019 ] Training epoch: 22
+[ Wed Dec 11 13:01:02 2019 ] 	Mean training loss: 1.7427.
+[ Wed Dec 11 13:01:02 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:01:02 2019 ] Eval epoch: 22
+[ Wed Dec 11 13:01:06 2019 ] 	Mean test loss of 27 batches: 3.358651880864744.
+[ Wed Dec 11 13:01:06 2019 ] 	Top1: 32.56%
+[ Wed Dec 11 13:01:06 2019 ] 	Top5: 72.09%
+[ Wed Dec 11 13:01:06 2019 ] Training epoch: 23
+[ Wed Dec 11 13:01:20 2019 ] 	Mean training loss: 1.6486.
+[ Wed Dec 11 13:01:20 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:01:20 2019 ] Eval epoch: 23
+[ Wed Dec 11 13:01:24 2019 ] 	Mean test loss of 27 batches: 2.811018038679052.
+[ Wed Dec 11 13:01:24 2019 ] 	Top1: 32.09%
+[ Wed Dec 11 13:01:24 2019 ] 	Top5: 75.81%
+[ Wed Dec 11 13:01:24 2019 ] Training epoch: 24
+[ Wed Dec 11 13:01:38 2019 ] 	Mean training loss: 1.5997.
+[ Wed Dec 11 13:01:38 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 13:01:38 2019 ] Eval epoch: 24
+[ Wed Dec 11 13:01:42 2019 ] 	Mean test loss of 27 batches: 2.7471692473800093.
+[ Wed Dec 11 13:01:42 2019 ] 	Top1: 37.67%
+[ Wed Dec 11 13:01:42 2019 ] 	Top5: 78.14%
+[ Wed Dec 11 13:01:42 2019 ] Training epoch: 25
+[ Wed Dec 11 13:01:56 2019 ] 	Mean training loss: 1.4740.
+[ Wed Dec 11 13:01:56 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:01:56 2019 ] Eval epoch: 25
+[ Wed Dec 11 13:02:00 2019 ] 	Mean test loss of 27 batches: 2.8075045104380005.
+[ Wed Dec 11 13:02:00 2019 ] 	Top1: 43.26%
+[ Wed Dec 11 13:02:00 2019 ] 	Top5: 79.53%
+[ Wed Dec 11 13:02:00 2019 ] Training epoch: 26
+[ Wed Dec 11 13:02:14 2019 ] 	Mean training loss: 1.4777.
+[ Wed Dec 11 13:02:14 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:02:14 2019 ] Eval epoch: 26
+[ Wed Dec 11 13:02:18 2019 ] 	Mean test loss of 27 batches: 3.198668579260508.
+[ Wed Dec 11 13:02:18 2019 ] 	Top1: 41.40%
+[ Wed Dec 11 13:02:18 2019 ] 	Top5: 80.93%
+[ Wed Dec 11 13:02:18 2019 ] Training epoch: 27
+[ Wed Dec 11 13:02:32 2019 ] 	Mean training loss: 1.3586.
+[ Wed Dec 11 13:02:32 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:02:32 2019 ] Eval epoch: 27
+[ Wed Dec 11 13:02:36 2019 ] 	Mean test loss of 27 batches: 2.6605785798143455.
+[ Wed Dec 11 13:02:36 2019 ] 	Top1: 39.53%
+[ Wed Dec 11 13:02:36 2019 ] 	Top5: 82.79%
+[ Wed Dec 11 13:02:36 2019 ] Training epoch: 28
+[ Wed Dec 11 13:02:50 2019 ] 	Mean training loss: 1.2777.
+[ Wed Dec 11 13:02:50 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:02:50 2019 ] Eval epoch: 28
+[ Wed Dec 11 13:02:54 2019 ] 	Mean test loss of 27 batches: 2.9121909185692116.
+[ Wed Dec 11 13:02:54 2019 ] 	Top1: 42.33%
+[ Wed Dec 11 13:02:54 2019 ] 	Top5: 77.67%
+[ Wed Dec 11 13:02:54 2019 ] Training epoch: 29
+[ Wed Dec 11 13:03:08 2019 ] 	Mean training loss: 1.1971.
+[ Wed Dec 11 13:03:08 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:03:08 2019 ] Eval epoch: 29
+[ Wed Dec 11 13:03:12 2019 ] 	Mean test loss of 27 batches: 3.156600261176074.
+[ Wed Dec 11 13:03:12 2019 ] 	Top1: 38.60%
+[ Wed Dec 11 13:03:12 2019 ] 	Top5: 80.93%
+[ Wed Dec 11 13:03:12 2019 ] Training epoch: 30
+[ Wed Dec 11 13:03:26 2019 ] 	Mean training loss: 1.1591.
+[ Wed Dec 11 13:03:26 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:03:26 2019 ] Eval epoch: 30
+[ Wed Dec 11 13:03:30 2019 ] 	Mean test loss of 27 batches: 2.464442065468541.
+[ Wed Dec 11 13:03:30 2019 ] 	Top1: 49.77%
+[ Wed Dec 11 13:03:30 2019 ] 	Top5: 88.37%
+[ Wed Dec 11 13:03:30 2019 ] Training epoch: 31
+[ Wed Dec 11 13:03:44 2019 ] 	Mean training loss: 0.9081.
+[ Wed Dec 11 13:03:44 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:03:44 2019 ] Eval epoch: 31
+[ Wed Dec 11 13:03:48 2019 ] 	Mean test loss of 27 batches: 2.4319055919294006.
+[ Wed Dec 11 13:03:48 2019 ] 	Top1: 55.81%
+[ Wed Dec 11 13:03:48 2019 ] 	Top5: 91.63%
+[ Wed Dec 11 13:03:48 2019 ] Training epoch: 32
+[ Wed Dec 11 13:04:02 2019 ] 	Mean training loss: 0.8571.
+[ Wed Dec 11 13:04:02 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:04:02 2019 ] Eval epoch: 32
+[ Wed Dec 11 13:04:06 2019 ] 	Mean test loss of 27 batches: 2.5815713582215487.
+[ Wed Dec 11 13:04:06 2019 ] 	Top1: 57.67%
+[ Wed Dec 11 13:04:06 2019 ] 	Top5: 89.77%
+[ Wed Dec 11 13:04:06 2019 ] Training epoch: 33
+[ Wed Dec 11 13:04:20 2019 ] 	Mean training loss: 0.8024.
+[ Wed Dec 11 13:04:20 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:04:20 2019 ] Eval epoch: 33
+[ Wed Dec 11 13:04:24 2019 ] 	Mean test loss of 27 batches: 2.4707224788489164.
+[ Wed Dec 11 13:04:24 2019 ] 	Top1: 56.74%
+[ Wed Dec 11 13:04:24 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 13:04:24 2019 ] Training epoch: 34
+[ Wed Dec 11 13:04:38 2019 ] 	Mean training loss: 0.8062.
+[ Wed Dec 11 13:04:38 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:04:38 2019 ] Eval epoch: 34
+[ Wed Dec 11 13:04:42 2019 ] 	Mean test loss of 27 batches: 2.1086265731740883.
+[ Wed Dec 11 13:04:42 2019 ] 	Top1: 57.67%
+[ Wed Dec 11 13:04:42 2019 ] 	Top5: 92.09%
+[ Wed Dec 11 13:04:42 2019 ] Training epoch: 35
+[ Wed Dec 11 13:04:57 2019 ] 	Mean training loss: 0.7733.
+[ Wed Dec 11 13:04:57 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:04:57 2019 ] Eval epoch: 35
+[ Wed Dec 11 13:05:01 2019 ] 	Mean test loss of 27 batches: 2.1704668468899198.
+[ Wed Dec 11 13:05:01 2019 ] 	Top1: 59.07%
+[ Wed Dec 11 13:05:01 2019 ] 	Top5: 92.09%
+[ Wed Dec 11 13:05:01 2019 ] Training epoch: 36
+[ Wed Dec 11 13:05:15 2019 ] 	Mean training loss: 0.7680.
+[ Wed Dec 11 13:05:15 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:05:15 2019 ] Eval epoch: 36
+[ Wed Dec 11 13:05:19 2019 ] 	Mean test loss of 27 batches: 1.9684658536204585.
+[ Wed Dec 11 13:05:19 2019 ] 	Top1: 61.40%
+[ Wed Dec 11 13:05:19 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 13:05:19 2019 ] Training epoch: 37
+[ Wed Dec 11 13:05:34 2019 ] 	Mean training loss: 0.7523.
+[ Wed Dec 11 13:05:34 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:05:34 2019 ] Eval epoch: 37
+[ Wed Dec 11 13:05:37 2019 ] 	Mean test loss of 27 batches: 2.1100039460040905.
+[ Wed Dec 11 13:05:37 2019 ] 	Top1: 58.60%
+[ Wed Dec 11 13:05:37 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 13:05:37 2019 ] Training epoch: 38
+[ Wed Dec 11 13:05:52 2019 ] 	Mean training loss: 0.7195.
+[ Wed Dec 11 13:05:52 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:05:52 2019 ] Eval epoch: 38
+[ Wed Dec 11 13:05:56 2019 ] 	Mean test loss of 27 batches: 2.0327032892792314.
+[ Wed Dec 11 13:05:56 2019 ] 	Top1: 61.86%
+[ Wed Dec 11 13:05:56 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 13:05:56 2019 ] Training epoch: 39
+[ Wed Dec 11 13:06:11 2019 ] 	Mean training loss: 0.6920.
+[ Wed Dec 11 13:06:11 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:06:11 2019 ] Eval epoch: 39
+[ Wed Dec 11 13:06:14 2019 ] 	Mean test loss of 27 batches: 1.9727868570221796.
+[ Wed Dec 11 13:06:14 2019 ] 	Top1: 57.21%
+[ Wed Dec 11 13:06:14 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 13:06:14 2019 ] Training epoch: 40
+[ Wed Dec 11 13:06:29 2019 ] 	Mean training loss: 0.6565.
+[ Wed Dec 11 13:06:29 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:06:29 2019 ] Eval epoch: 40
+[ Wed Dec 11 13:06:33 2019 ] 	Mean test loss of 27 batches: 2.002442666777858.
+[ Wed Dec 11 13:06:33 2019 ] 	Top1: 62.79%
+[ Wed Dec 11 13:06:33 2019 ] 	Top5: 93.02%
+[ Wed Dec 11 13:06:33 2019 ] Training epoch: 41
+[ Wed Dec 11 13:06:47 2019 ] 	Mean training loss: 0.6385.
+[ Wed Dec 11 13:06:47 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:06:47 2019 ] Eval epoch: 41
+[ Wed Dec 11 13:06:51 2019 ] 	Mean test loss of 27 batches: 1.9717747392477813.
+[ Wed Dec 11 13:06:51 2019 ] 	Top1: 60.93%
+[ Wed Dec 11 13:06:51 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 13:06:51 2019 ] Training epoch: 42
+[ Wed Dec 11 13:07:06 2019 ] 	Mean training loss: 0.6624.
+[ Wed Dec 11 13:07:06 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:07:06 2019 ] Eval epoch: 42
+[ Wed Dec 11 13:07:10 2019 ] 	Mean test loss of 27 batches: 1.7185113297568426.
+[ Wed Dec 11 13:07:10 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 13:07:10 2019 ] 	Top5: 94.88%
+[ Wed Dec 11 13:07:10 2019 ] Training epoch: 43
+[ Wed Dec 11 13:07:24 2019 ] 	Mean training loss: 0.6452.
+[ Wed Dec 11 13:07:24 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:07:24 2019 ] Eval epoch: 43
+[ Wed Dec 11 13:07:28 2019 ] 	Mean test loss of 27 batches: 1.8470697115968775.
+[ Wed Dec 11 13:07:28 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 13:07:28 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 13:07:28 2019 ] Training epoch: 44
+[ Wed Dec 11 13:07:43 2019 ] 	Mean training loss: 0.6382.
+[ Wed Dec 11 13:07:43 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:07:43 2019 ] Eval epoch: 44
+[ Wed Dec 11 13:07:47 2019 ] 	Mean test loss of 27 batches: 2.1466644318015486.
+[ Wed Dec 11 13:07:47 2019 ] 	Top1: 61.40%
+[ Wed Dec 11 13:07:47 2019 ] 	Top5: 93.95%
+[ Wed Dec 11 13:07:47 2019 ] Training epoch: 45
+[ Wed Dec 11 13:08:03 2019 ] 	Mean training loss: 0.6536.
+[ Wed Dec 11 13:08:03 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 13:08:03 2019 ] Eval epoch: 45
+[ Wed Dec 11 13:08:07 2019 ] 	Mean test loss of 27 batches: 1.9423896228825603.
+[ Wed Dec 11 13:08:07 2019 ] 	Top1: 60.47%
+[ Wed Dec 11 13:08:07 2019 ] 	Top5: 94.42%
+[ Wed Dec 11 13:08:07 2019 ] Training epoch: 46
+[ Wed Dec 11 13:08:21 2019 ] 	Mean training loss: 0.6531.
+[ Wed Dec 11 13:08:21 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:08:21 2019 ] Eval epoch: 46
+[ Wed Dec 11 13:08:26 2019 ] 	Mean test loss of 27 batches: 2.0071414664939597.
+[ Wed Dec 11 13:08:26 2019 ] 	Top1: 60.00%
+[ Wed Dec 11 13:08:26 2019 ] 	Top5: 93.95%
+[ Wed Dec 11 13:08:26 2019 ] Training epoch: 47
+[ Wed Dec 11 13:08:41 2019 ] 	Mean training loss: 0.6377.
+[ Wed Dec 11 13:08:41 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:08:41 2019 ] Eval epoch: 47
+[ Wed Dec 11 13:08:45 2019 ] 	Mean test loss of 27 batches: 1.8439032038052876.
+[ Wed Dec 11 13:08:45 2019 ] 	Top1: 62.33%
+[ Wed Dec 11 13:08:45 2019 ] 	Top5: 94.88%
+[ Wed Dec 11 13:08:45 2019 ] Training epoch: 48
+[ Wed Dec 11 13:09:00 2019 ] 	Mean training loss: 0.6173.
+[ Wed Dec 11 13:09:00 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:09:00 2019 ] Eval epoch: 48
+[ Wed Dec 11 13:09:04 2019 ] 	Mean test loss of 27 batches: 1.9936278771471094.
+[ Wed Dec 11 13:09:04 2019 ] 	Top1: 61.86%
+[ Wed Dec 11 13:09:04 2019 ] 	Top5: 95.35%
+[ Wed Dec 11 13:09:04 2019 ] Training epoch: 49
+[ Wed Dec 11 13:09:19 2019 ] 	Mean training loss: 0.6470.
+[ Wed Dec 11 13:09:19 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:09:19 2019 ] Eval epoch: 49
+[ Wed Dec 11 13:09:22 2019 ] 	Mean test loss of 27 batches: 2.0209302791842707.
+[ Wed Dec 11 13:09:22 2019 ] 	Top1: 60.93%
+[ Wed Dec 11 13:09:22 2019 ] 	Top5: 93.02%
+[ Wed Dec 11 13:09:22 2019 ] Training epoch: 50
+[ Wed Dec 11 13:09:37 2019 ] 	Mean training loss: 0.6321.
+[ Wed Dec 11 13:09:37 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 13:09:37 2019 ] Eval epoch: 50
+[ Wed Dec 11 13:09:41 2019 ] 	Mean test loss of 27 batches: 1.6473306682374742.
+[ Wed Dec 11 13:09:41 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 13:09:41 2019 ] 	Top5: 95.81%
+[ Wed Dec 11 14:26:24 2019 ] Parameters:
+{'seed': 1, 'base_lr': 0.1, 'nesterov': True, 'print_log': True, 'log_interval': 100, 'model_saved_name': './runs/my_cs_agcn', 'config': 'config/my_subject_train.yaml', 'only_train_epoch': 0, 'optimizer': 'SGD', 'show_topk': [1, 5], 'device': [0, 1], 'model_args': {'num_point': 21, 'num_person': 2, 'num_class': 27, 'graph_args': {'labeling_mode': 'spatial'}, 'graph': 'graph.my_graph.Graph'}, 'start_epoch': 0, 'save_score': False, 'step': [30, 40], 'save_interval': 2, 'batch_size': 8, 'train_feeder_args': {'debug': False, 'random_shift': False, 'random_move': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_choose': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'window_size': -1, 'normalization': False}, 'test_batch_size': 8, 'weights': None, 'num_worker': 32, 'warm_up_epoch': 0, 'weight_decay': 0.0001, 'model': 'model.agcn.Model', 'phase': 'train', 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'num_epoch': 50, 'feeder': 'feeders.feeder.Feeder', 'work_dir': './work_dir/my_agcn', 'eval_interval': 5, 'only_train_part': False, 'ignore_weights': []}
+
+[ Wed Dec 11 14:26:24 2019 ] Training epoch: 1
+[ Wed Dec 11 14:26:41 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 14:26:41 2019 ] 	Time consumption: [Data]06%, [Network]93%
+[ Wed Dec 11 14:26:41 2019 ] Eval epoch: 1
+[ Wed Dec 11 14:26:45 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 14:26:45 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 14:26:45 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 14:26:45 2019 ] Training epoch: 2
+[ Wed Dec 11 14:26:59 2019 ] 	Mean training loss: 3.1765.
+[ Wed Dec 11 14:26:59 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 14:26:59 2019 ] Eval epoch: 2
+[ Wed Dec 11 14:27:02 2019 ] 	Mean test loss of 27 batches: 3.023213589632953.
+[ Wed Dec 11 14:27:02 2019 ] 	Top1: 10.70%
+[ Wed Dec 11 14:27:02 2019 ] 	Top5: 37.21%
+[ Wed Dec 11 14:27:02 2019 ] Training epoch: 3
+[ Wed Dec 11 14:32:35 2019 ] Parameters:
+{'nesterov': True, 'test_batch_size': 8, 'save_score': False, 'feeder': 'feeders.feeder.Feeder', 'eval_interval': 5, 'save_interval': 2, 'show_topk': [1, 5], 'num_worker': 32, 'step': [30, 40], 'train_feeder_args': {'random_choose': False, 'debug': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'random_shift': False, 'random_move': False, 'normalization': False, 'window_size': -1}, 'model_args': {'num_class': 27, 'num_point': 21, 'graph': 'graph.my_graph.Graph', 'num_person': 2, 'graph_args': {'labeling_mode': 'spatial'}}, 'base_lr': 0.1, 'log_interval': 100, 'num_epoch': 50, 'weight_decay': 0.0001, 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'config': 'config/my_subject_train.yaml', 'device': [0, 1], 'model_saved_name': './runs/my_cs_agcn', 'print_log': True, 'only_train_epoch': 0, 'warm_up_epoch': 0, 'seed': 1, 'ignore_weights': [], 'start_epoch': 0, 'only_train_part': False, 'model': 'model.agcn.Model', 'phase': 'train', 'optimizer': 'SGD', 'weights': None, 'batch_size': 8, 'work_dir': './work_dir/my_agcn'}
+
+[ Wed Dec 11 14:32:35 2019 ] Training epoch: 1
+[ Wed Dec 11 14:32:52 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 14:32:52 2019 ] 	Time consumption: [Data]06%, [Network]94%
+[ Wed Dec 11 14:32:52 2019 ] Eval epoch: 1
+[ Wed Dec 11 14:32:56 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 14:32:56 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 14:32:56 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 14:32:56 2019 ] Training epoch: 2
+[ Wed Dec 11 14:33:10 2019 ] 	Mean training loss: 3.1765.
+[ Wed Dec 11 14:33:10 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 14:33:10 2019 ] Eval epoch: 2
+[ Wed Dec 11 14:34:59 2019 ] Parameters:
+{'nesterov': True, 'weights': None, 'seed': 1, 'show_topk': [1, 5], 'start_epoch': 0, 'save_score': False, 'only_train_part': False, 'base_lr': 0.1, 'weight_decay': 0.0001, 'step': [30, 40], 'test_batch_size': 8, 'log_interval': 100, 'only_train_epoch': 0, 'optimizer': 'SGD', 'device': [0, 1], 'feeder': 'feeders.feeder.Feeder', 'train_feeder_args': {'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'debug': False, 'random_choose': False, 'normalization': False, 'window_size': -1, 'random_shift': False, 'random_move': False}, 'ignore_weights': [], 'warm_up_epoch': 0, 'batch_size': 8, 'save_interval': 2, 'model_saved_name': './runs/my_cs_agcn', 'config': 'config/my_subject_train.yaml', 'print_log': True, 'num_epoch': 50, 'eval_interval': 5, 'work_dir': './work_dir/my_agcn', 'phase': 'train', 'model': 'model.agcn.Model', 'num_worker': 32, 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'model_args': {'num_class': 27, 'graph': 'graph.my_graph.Graph', 'num_point': 21, 'num_person': 2, 'graph_args': {'labeling_mode': 'spatial'}}}
+
+[ Wed Dec 11 14:34:59 2019 ] Training epoch: 1
+[ Wed Dec 11 14:35:16 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 14:35:16 2019 ] 	Time consumption: [Data]06%, [Network]93%
+[ Wed Dec 11 14:35:16 2019 ] Eval epoch: 1
+[ Wed Dec 11 14:35:19 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 14:35:19 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 14:35:19 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 14:35:19 2019 ] Training epoch: 2
+[ Wed Dec 11 14:35:33 2019 ] 	Mean training loss: 3.1765.
+[ Wed Dec 11 14:35:33 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 14:35:34 2019 ] Eval epoch: 2
+[ Wed Dec 11 14:45:04 2019 ] Parameters:
+{'show_topk': [1, 5], 'model_args': {'num_person': 2, 'graph': 'graph.my_graph.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 27, 'num_point': 21}, 'ignore_weights': [], 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'base_lr': 0.1, 'warm_up_epoch': 0, 'weights': None, 'model_saved_name': './runs/my_cs_agcn', 'nesterov': True, 'config': 'config/my_subject_train.yaml', 'save_interval': 2, 'seed': 1, 'weight_decay': 0.0001, 'work_dir': './work_dir/my_agcn', 'model': 'model.agcn.Model', 'test_batch_size': 8, 'only_train_part': False, 'start_epoch': 0, 'num_worker': 32, 'optimizer': 'SGD', 'log_interval': 100, 'batch_size': 8, 'phase': 'train', 'train_feeder_args': {'random_choose': False, 'random_shift': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'debug': False, 'normalization': False, 'random_move': False, 'window_size': -1}, 'eval_interval': 5, 'print_log': True, 'feeder': 'feeders.feeder.Feeder', 'save_score': False, 'step': [30, 40], 'only_train_epoch': 0, 'num_epoch': 50, 'device': [0, 1]}
+
+[ Wed Dec 11 14:45:04 2019 ] Training epoch: 1
+[ Wed Dec 11 14:45:21 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 14:45:21 2019 ] 	Time consumption: [Data]06%, [Network]94%
+[ Wed Dec 11 14:45:21 2019 ] Eval epoch: 1
+[ Wed Dec 11 14:45:24 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 14:45:24 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 14:45:24 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 14:45:24 2019 ] Training epoch: 2
+[ Wed Dec 11 14:52:37 2019 ] Parameters:
+{'seed': 1, 'ignore_weights': [], 'only_train_part': False, 'save_interval': 2, 'nesterov': True, 'batch_size': 8, 'eval_interval': 5, 'weight_decay': 0.0001, 'num_epoch': 50, 'phase': 'train', 'save_score': False, 'test_feeder_args': {'label_path': './data/mydata/gen/xsub/val_label.pkl', 'data_path': './data/mydata/gen/xsub/val_data_joint.npy'}, 'model_args': {'num_person': 2, 'graph': 'graph.my_graph.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 27, 'num_point': 21}, 'work_dir': './work_dir/my_agcn', 'model': 'model.agcn.Model', 'step': [30, 40], 'config': 'config/my_subject_train.yaml', 'base_lr': 0.1, 'device': [0, 1], 'only_train_epoch': 0, 'start_epoch': 0, 'warm_up_epoch': 0, 'log_interval': 100, 'num_worker': 32, 'show_topk': [1, 5], 'weights': None, 'print_log': True, 'feeder': 'feeders.feeder.Feeder', 'optimizer': 'SGD', 'model_saved_name': './runs/my_cs_agcn', 'test_batch_size': 8, 'train_feeder_args': {'normalization': False, 'window_size': -1, 'random_choose': False, 'debug': False, 'random_move': False, 'random_shift': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'data_path': './data/mydata/gen/xsub/train_data_joint.npy'}}
+
+[ Wed Dec 11 14:52:37 2019 ] Training epoch: 1
+[ Wed Dec 11 14:52:54 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 14:52:54 2019 ] 	Time consumption: [Data]06%, [Network]94%
+[ Wed Dec 11 14:52:54 2019 ] Eval epoch: 1
+[ Wed Dec 11 14:52:57 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 14:52:57 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 14:52:57 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 14:52:57 2019 ] Training epoch: 2
+[ Wed Dec 11 15:37:54 2019 ] Parameters:
+{'weights': None, 'work_dir': './work_dir/my_agcn', 'weight_decay': 0.0001, 'config': 'config/my_subject_train.yaml', 'seed': 1, 'start_epoch': 0, 'phase': 'train', 'only_train_part': False, 'nesterov': True, 'test_feeder_args': {'label_path': './data/mydata/gen/xsub/val_label.pkl', 'data_path': './data/mydata/gen/xsub/val_data_joint.npy'}, 'warm_up_epoch': 0, 'print_log': True, 'base_lr': 0.1, 'only_train_epoch': 0, 'show_topk': [1, 5], 'train_feeder_args': {'random_shift': False, 'debug': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_move': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'random_choose': False, 'normalization': False, 'window_size': -1}, 'save_interval': 2, 'batch_size': 8, 'num_epoch': 50, 'step': [30, 40], 'test_batch_size': 8, 'model_args': {'num_point': 21, 'graph_args': {'labeling_mode': 'spatial'}, 'graph': 'graph.my_graph.Graph', 'num_person': 2, 'num_class': 27}, 'num_worker': 32, 'ignore_weights': [], 'model': 'model.agcn.Model', 'device': [0, 1], 'optimizer': 'SGD', 'log_interval': 100, 'save_score': False, 'eval_interval': 5, 'model_saved_name': './runs/my_cs_agcn', 'feeder': 'feeders.feeder.Feeder'}
+
+[ Wed Dec 11 15:37:54 2019 ] Training epoch: 1
+[ Wed Dec 11 15:38:12 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 15:38:12 2019 ] 	Time consumption: [Data]06%, [Network]94%
+[ Wed Dec 11 15:38:12 2019 ] Eval epoch: 1
+[ Wed Dec 11 15:38:15 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 15:38:15 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 15:38:15 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 15:38:15 2019 ] Training epoch: 2
+[ Wed Dec 11 15:39:13 2019 ] Parameters:
+{'work_dir': './work_dir/my_agcn', 'step': [30, 40], 'phase': 'train', 'model_args': {'num_person': 2, 'num_point': 21, 'num_class': 27, 'graph_args': {'labeling_mode': 'spatial'}, 'graph': 'graph.my_graph.Graph'}, 'optimizer': 'SGD', 'weights': None, 'only_train_epoch': 0, 'seed': 1, 'warm_up_epoch': 0, 'model': 'model.agcn.Model', 'start_epoch': 0, 'model_saved_name': './runs/my_cs_agcn', 'device': [0, 1], 'weight_decay': 0.0001, 'base_lr': 0.1, 'log_interval': 100, 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'show_topk': [1, 5], 'num_epoch': 50, 'nesterov': True, 'feeder': 'feeders.feeder.Feeder', 'batch_size': 8, 'train_feeder_args': {'debug': False, 'random_shift': False, 'window_size': -1, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'random_choose': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'normalization': False, 'random_move': False}, 'only_train_part': False, 'print_log': True, 'ignore_weights': [], 'config': 'config/my_subject_train.yaml', 'save_score': False, 'save_interval': 2, 'num_worker': 32, 'test_batch_size': 8, 'eval_interval': 5}
+
+[ Wed Dec 11 15:39:13 2019 ] Training epoch: 1
+[ Wed Dec 11 15:39:30 2019 ] 	Mean training loss: 4.1764.
+[ Wed Dec 11 15:39:30 2019 ] 	Time consumption: [Data]06%, [Network]93%
+[ Wed Dec 11 15:39:30 2019 ] Eval epoch: 1
+[ Wed Dec 11 15:39:34 2019 ] 	Mean test loss of 27 batches: 3.527329621491609.
+[ Wed Dec 11 15:39:34 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 15:39:34 2019 ] 	Top5: 26.98%
+[ Wed Dec 11 15:39:34 2019 ] Training epoch: 2
+[ Wed Dec 11 15:39:48 2019 ] 	Mean training loss: 3.1765.
+[ Wed Dec 11 15:39:48 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:39:48 2019 ] Eval epoch: 2
+[ Wed Dec 11 15:39:51 2019 ] 	Mean test loss of 27 batches: 3.023213589632953.
+[ Wed Dec 11 15:39:51 2019 ] 	Top1: 10.70%
+[ Wed Dec 11 15:39:51 2019 ] 	Top5: 37.21%
+[ Wed Dec 11 15:39:51 2019 ] Training epoch: 3
+[ Wed Dec 11 15:40:06 2019 ] 	Mean training loss: 3.0732.
+[ Wed Dec 11 15:40:06 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:40:06 2019 ] Eval epoch: 3
+[ Wed Dec 11 15:40:09 2019 ] 	Mean test loss of 27 batches: 2.9792060057322183.
+[ Wed Dec 11 15:40:09 2019 ] 	Top1: 6.98%
+[ Wed Dec 11 15:40:09 2019 ] 	Top5: 38.14%
+[ Wed Dec 11 15:40:09 2019 ] Training epoch: 4
+[ Wed Dec 11 15:40:23 2019 ] 	Mean training loss: 2.9925.
+[ Wed Dec 11 15:40:23 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:40:23 2019 ] Eval epoch: 4
+[ Wed Dec 11 15:40:27 2019 ] 	Mean test loss of 27 batches: 3.075887423974496.
+[ Wed Dec 11 15:40:27 2019 ] 	Top1: 8.37%
+[ Wed Dec 11 15:40:27 2019 ] 	Top5: 39.07%
+[ Wed Dec 11 15:40:27 2019 ] Training epoch: 5
+[ Wed Dec 11 15:40:41 2019 ] 	Mean training loss: 2.9329.
+[ Wed Dec 11 15:40:41 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:40:41 2019 ] Eval epoch: 5
+[ Wed Dec 11 15:40:44 2019 ] 	Mean test loss of 27 batches: 3.141091373231676.
+[ Wed Dec 11 15:40:44 2019 ] 	Top1: 9.30%
+[ Wed Dec 11 15:40:44 2019 ] 	Top5: 36.74%
+[ Wed Dec 11 15:40:44 2019 ] Training epoch: 6
+[ Wed Dec 11 15:40:59 2019 ] 	Mean training loss: 2.9827.
+[ Wed Dec 11 15:40:59 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:40:59 2019 ] Eval epoch: 6
+[ Wed Dec 11 15:41:02 2019 ] 	Mean test loss of 27 batches: 3.296627371399491.
+[ Wed Dec 11 15:41:02 2019 ] 	Top1: 7.91%
+[ Wed Dec 11 15:41:02 2019 ] 	Top5: 42.33%
+[ Wed Dec 11 15:41:02 2019 ] Training epoch: 7
+[ Wed Dec 11 15:41:16 2019 ] 	Mean training loss: 2.9794.
+[ Wed Dec 11 15:41:16 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:41:16 2019 ] Eval epoch: 7
+[ Wed Dec 11 15:41:20 2019 ] 	Mean test loss of 27 batches: 3.300776490458736.
+[ Wed Dec 11 15:41:20 2019 ] 	Top1: 13.95%
+[ Wed Dec 11 15:41:20 2019 ] 	Top5: 42.79%
+[ Wed Dec 11 15:41:20 2019 ] Training epoch: 8
+[ Wed Dec 11 15:41:34 2019 ] 	Mean training loss: 2.8862.
+[ Wed Dec 11 15:41:34 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:41:34 2019 ] Eval epoch: 8
+[ Wed Dec 11 15:41:37 2019 ] 	Mean test loss of 27 batches: 3.1584152292322227.
+[ Wed Dec 11 15:41:37 2019 ] 	Top1: 13.95%
+[ Wed Dec 11 15:41:37 2019 ] 	Top5: 40.93%
+[ Wed Dec 11 15:41:37 2019 ] Training epoch: 9
+[ Wed Dec 11 15:41:51 2019 ] 	Mean training loss: 2.8170.
+[ Wed Dec 11 15:41:51 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:41:51 2019 ] Eval epoch: 9
+[ Wed Dec 11 15:41:55 2019 ] 	Mean test loss of 27 batches: 3.029623791023537.
+[ Wed Dec 11 15:41:55 2019 ] 	Top1: 16.74%
+[ Wed Dec 11 15:41:55 2019 ] 	Top5: 50.23%
+[ Wed Dec 11 15:41:55 2019 ] Training epoch: 10
+[ Wed Dec 11 15:42:10 2019 ] 	Mean training loss: 2.6846.
+[ Wed Dec 11 15:42:10 2019 ] 	Time consumption: [Data]10%, [Network]90%
+[ Wed Dec 11 15:42:10 2019 ] Eval epoch: 10
+[ Wed Dec 11 15:42:13 2019 ] 	Mean test loss of 27 batches: 3.145397504170736.
+[ Wed Dec 11 15:42:13 2019 ] 	Top1: 15.35%
+[ Wed Dec 11 15:42:13 2019 ] 	Top5: 47.44%
+[ Wed Dec 11 15:42:13 2019 ] Training epoch: 11
+[ Wed Dec 11 15:42:28 2019 ] 	Mean training loss: 2.5830.
+[ Wed Dec 11 15:42:28 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:42:28 2019 ] Eval epoch: 11
+[ Wed Dec 11 15:42:31 2019 ] 	Mean test loss of 27 batches: 3.045421529699255.
+[ Wed Dec 11 15:42:31 2019 ] 	Top1: 15.81%
+[ Wed Dec 11 15:42:31 2019 ] 	Top5: 54.42%
+[ Wed Dec 11 15:42:31 2019 ] Training epoch: 12
+[ Wed Dec 11 15:42:46 2019 ] 	Mean training loss: 2.5317.
+[ Wed Dec 11 15:42:46 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:42:46 2019 ] Eval epoch: 12
+[ Wed Dec 11 15:42:49 2019 ] 	Mean test loss of 27 batches: 2.981228227968569.
+[ Wed Dec 11 15:42:49 2019 ] 	Top1: 17.67%
+[ Wed Dec 11 15:42:49 2019 ] 	Top5: 58.60%
+[ Wed Dec 11 15:42:49 2019 ] Training epoch: 13
+[ Wed Dec 11 15:43:04 2019 ] 	Mean training loss: 2.3476.
+[ Wed Dec 11 15:43:04 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:43:04 2019 ] Eval epoch: 13
+[ Wed Dec 11 15:43:07 2019 ] 	Mean test loss of 27 batches: 3.327809148364597.
+[ Wed Dec 11 15:43:07 2019 ] 	Top1: 21.86%
+[ Wed Dec 11 15:43:07 2019 ] 	Top5: 62.33%
+[ Wed Dec 11 15:43:07 2019 ] Training epoch: 14
+[ Wed Dec 11 15:43:22 2019 ] 	Mean training loss: 2.2929.
+[ Wed Dec 11 15:43:22 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:43:22 2019 ] Eval epoch: 14
+[ Wed Dec 11 15:43:25 2019 ] 	Mean test loss of 27 batches: 3.0302611545280174.
+[ Wed Dec 11 15:43:25 2019 ] 	Top1: 23.26%
+[ Wed Dec 11 15:43:25 2019 ] 	Top5: 60.00%
+[ Wed Dec 11 15:43:25 2019 ] Training epoch: 15
+[ Wed Dec 11 15:43:40 2019 ] 	Mean training loss: 2.2405.
+[ Wed Dec 11 15:43:40 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:43:40 2019 ] Eval epoch: 15
+[ Wed Dec 11 15:43:43 2019 ] 	Mean test loss of 27 batches: 3.8446292259075023.
+[ Wed Dec 11 15:43:43 2019 ] 	Top1: 25.12%
+[ Wed Dec 11 15:43:43 2019 ] 	Top5: 64.19%
+[ Wed Dec 11 15:43:43 2019 ] Training epoch: 16
+[ Wed Dec 11 15:43:58 2019 ] 	Mean training loss: 2.1299.
+[ Wed Dec 11 15:43:58 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:43:58 2019 ] Eval epoch: 16
+[ Wed Dec 11 15:44:01 2019 ] 	Mean test loss of 27 batches: 5.416779209066321.
+[ Wed Dec 11 15:44:01 2019 ] 	Top1: 20.47%
+[ Wed Dec 11 15:44:01 2019 ] 	Top5: 66.05%
+[ Wed Dec 11 15:44:01 2019 ] Training epoch: 17
+[ Wed Dec 11 15:44:16 2019 ] 	Mean training loss: 2.0157.
+[ Wed Dec 11 15:44:16 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:44:16 2019 ] Eval epoch: 17
+[ Wed Dec 11 15:44:19 2019 ] 	Mean test loss of 27 batches: 3.4258658753501043.
+[ Wed Dec 11 15:44:19 2019 ] 	Top1: 29.30%
+[ Wed Dec 11 15:44:19 2019 ] 	Top5: 61.86%
+[ Wed Dec 11 15:44:19 2019 ] Training epoch: 18
+[ Wed Dec 11 15:44:34 2019 ] 	Mean training loss: 2.0010.
+[ Wed Dec 11 15:44:34 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:44:34 2019 ] Eval epoch: 18
+[ Wed Dec 11 15:44:38 2019 ] 	Mean test loss of 27 batches: 4.506486614545186.
+[ Wed Dec 11 15:44:38 2019 ] 	Top1: 24.65%
+[ Wed Dec 11 15:44:38 2019 ] 	Top5: 60.00%
+[ Wed Dec 11 15:44:38 2019 ] Training epoch: 19
+[ Wed Dec 11 15:44:52 2019 ] 	Mean training loss: 1.9363.
+[ Wed Dec 11 15:44:52 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:44:52 2019 ] Eval epoch: 19
+[ Wed Dec 11 15:44:55 2019 ] 	Mean test loss of 27 batches: 3.877825697263082.
+[ Wed Dec 11 15:44:55 2019 ] 	Top1: 35.81%
+[ Wed Dec 11 15:44:55 2019 ] 	Top5: 67.44%
+[ Wed Dec 11 15:44:55 2019 ] Training epoch: 20
+[ Wed Dec 11 15:45:10 2019 ] 	Mean training loss: 1.8910.
+[ Wed Dec 11 15:45:10 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:45:10 2019 ] Eval epoch: 20
+[ Wed Dec 11 15:45:13 2019 ] 	Mean test loss of 27 batches: 3.859209246105618.
+[ Wed Dec 11 15:45:13 2019 ] 	Top1: 28.84%
+[ Wed Dec 11 15:45:13 2019 ] 	Top5: 68.84%
+[ Wed Dec 11 15:45:13 2019 ] Training epoch: 21
+[ Wed Dec 11 15:45:28 2019 ] 	Mean training loss: 1.7703.
+[ Wed Dec 11 15:45:28 2019 ] 	Time consumption: [Data]10%, [Network]90%
+[ Wed Dec 11 15:45:28 2019 ] Eval epoch: 21
+[ Wed Dec 11 15:45:32 2019 ] 	Mean test loss of 27 batches: 3.2243629738136574.
+[ Wed Dec 11 15:45:32 2019 ] 	Top1: 31.16%
+[ Wed Dec 11 15:45:32 2019 ] 	Top5: 73.02%
+[ Wed Dec 11 15:45:32 2019 ] Training epoch: 22
+[ Wed Dec 11 15:45:46 2019 ] 	Mean training loss: 1.7427.
+[ Wed Dec 11 15:45:46 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:45:46 2019 ] Eval epoch: 22
+[ Wed Dec 11 15:45:50 2019 ] 	Mean test loss of 27 batches: 3.358651880864744.
+[ Wed Dec 11 15:45:50 2019 ] 	Top1: 32.56%
+[ Wed Dec 11 15:45:50 2019 ] 	Top5: 72.09%
+[ Wed Dec 11 15:45:50 2019 ] Training epoch: 23
+[ Wed Dec 11 15:46:04 2019 ] 	Mean training loss: 1.6486.
+[ Wed Dec 11 15:46:04 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:46:04 2019 ] Eval epoch: 23
+[ Wed Dec 11 15:46:08 2019 ] 	Mean test loss of 27 batches: 2.811018038679052.
+[ Wed Dec 11 15:46:08 2019 ] 	Top1: 32.09%
+[ Wed Dec 11 15:46:08 2019 ] 	Top5: 75.81%
+[ Wed Dec 11 15:46:08 2019 ] Training epoch: 24
+[ Wed Dec 11 15:46:22 2019 ] 	Mean training loss: 1.5997.
+[ Wed Dec 11 15:46:22 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:46:22 2019 ] Eval epoch: 24
+[ Wed Dec 11 15:46:26 2019 ] 	Mean test loss of 27 batches: 2.7471692473800093.
+[ Wed Dec 11 15:46:26 2019 ] 	Top1: 37.67%
+[ Wed Dec 11 15:46:26 2019 ] 	Top5: 78.14%
+[ Wed Dec 11 15:46:26 2019 ] Training epoch: 25
+[ Wed Dec 11 15:46:40 2019 ] 	Mean training loss: 1.4740.
+[ Wed Dec 11 15:46:40 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:46:40 2019 ] Eval epoch: 25
+[ Wed Dec 11 15:46:44 2019 ] 	Mean test loss of 27 batches: 2.8075045104380005.
+[ Wed Dec 11 15:46:44 2019 ] 	Top1: 43.26%
+[ Wed Dec 11 15:46:44 2019 ] 	Top5: 79.53%
+[ Wed Dec 11 15:46:44 2019 ] Training epoch: 26
+[ Wed Dec 11 15:46:58 2019 ] 	Mean training loss: 1.4777.
+[ Wed Dec 11 15:46:58 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:46:58 2019 ] Eval epoch: 26
+[ Wed Dec 11 15:47:02 2019 ] 	Mean test loss of 27 batches: 3.198668579260508.
+[ Wed Dec 11 15:47:02 2019 ] 	Top1: 41.40%
+[ Wed Dec 11 15:47:02 2019 ] 	Top5: 80.93%
+[ Wed Dec 11 15:47:02 2019 ] Training epoch: 27
+[ Wed Dec 11 15:47:16 2019 ] 	Mean training loss: 1.3586.
+[ Wed Dec 11 15:47:16 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:47:16 2019 ] Eval epoch: 27
+[ Wed Dec 11 15:47:20 2019 ] 	Mean test loss of 27 batches: 2.6605785798143455.
+[ Wed Dec 11 15:47:20 2019 ] 	Top1: 39.53%
+[ Wed Dec 11 15:47:20 2019 ] 	Top5: 82.79%
+[ Wed Dec 11 15:47:20 2019 ] Training epoch: 28
+[ Wed Dec 11 15:47:35 2019 ] 	Mean training loss: 1.2777.
+[ Wed Dec 11 15:47:35 2019 ] 	Time consumption: [Data]10%, [Network]90%
+[ Wed Dec 11 15:47:35 2019 ] Eval epoch: 28
+[ Wed Dec 11 15:47:38 2019 ] 	Mean test loss of 27 batches: 2.9121909185692116.
+[ Wed Dec 11 15:47:38 2019 ] 	Top1: 42.33%
+[ Wed Dec 11 15:47:38 2019 ] 	Top5: 77.67%
+[ Wed Dec 11 15:47:38 2019 ] Training epoch: 29
+[ Wed Dec 11 15:47:53 2019 ] 	Mean training loss: 1.1971.
+[ Wed Dec 11 15:47:53 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:47:53 2019 ] Eval epoch: 29
+[ Wed Dec 11 15:47:57 2019 ] 	Mean test loss of 27 batches: 3.156600261176074.
+[ Wed Dec 11 15:47:57 2019 ] 	Top1: 38.60%
+[ Wed Dec 11 15:47:57 2019 ] 	Top5: 80.93%
+[ Wed Dec 11 15:47:57 2019 ] Training epoch: 30
+[ Wed Dec 11 15:48:11 2019 ] 	Mean training loss: 1.1591.
+[ Wed Dec 11 15:48:11 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:48:11 2019 ] Eval epoch: 30
+[ Wed Dec 11 15:48:14 2019 ] 	Mean test loss of 27 batches: 2.464442065468541.
+[ Wed Dec 11 15:48:14 2019 ] 	Top1: 49.77%
+[ Wed Dec 11 15:48:14 2019 ] 	Top5: 88.37%
+[ Wed Dec 11 15:48:14 2019 ] Training epoch: 31
+[ Wed Dec 11 15:48:29 2019 ] 	Mean training loss: 0.9081.
+[ Wed Dec 11 15:48:29 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:48:29 2019 ] Eval epoch: 31
+[ Wed Dec 11 15:48:32 2019 ] 	Mean test loss of 27 batches: 2.4319055919294006.
+[ Wed Dec 11 15:48:32 2019 ] 	Top1: 55.81%
+[ Wed Dec 11 15:48:32 2019 ] 	Top5: 91.63%
+[ Wed Dec 11 15:48:32 2019 ] Training epoch: 32
+[ Wed Dec 11 15:48:47 2019 ] 	Mean training loss: 0.8571.
+[ Wed Dec 11 15:48:47 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:48:47 2019 ] Eval epoch: 32
+[ Wed Dec 11 15:48:50 2019 ] 	Mean test loss of 27 batches: 2.5815713582215487.
+[ Wed Dec 11 15:48:50 2019 ] 	Top1: 57.67%
+[ Wed Dec 11 15:48:50 2019 ] 	Top5: 89.77%
+[ Wed Dec 11 15:48:50 2019 ] Training epoch: 33
+[ Wed Dec 11 15:49:05 2019 ] 	Mean training loss: 0.8024.
+[ Wed Dec 11 15:49:05 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:49:05 2019 ] Eval epoch: 33
+[ Wed Dec 11 15:49:09 2019 ] 	Mean test loss of 27 batches: 2.4707224788489164.
+[ Wed Dec 11 15:49:09 2019 ] 	Top1: 56.74%
+[ Wed Dec 11 15:49:09 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 15:49:09 2019 ] Training epoch: 34
+[ Wed Dec 11 15:49:23 2019 ] 	Mean training loss: 0.8062.
+[ Wed Dec 11 15:49:23 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:49:23 2019 ] Eval epoch: 34
+[ Wed Dec 11 15:49:27 2019 ] 	Mean test loss of 27 batches: 2.1086265731740883.
+[ Wed Dec 11 15:49:27 2019 ] 	Top1: 57.67%
+[ Wed Dec 11 15:49:27 2019 ] 	Top5: 92.09%
+[ Wed Dec 11 15:49:27 2019 ] Training epoch: 35
+[ Wed Dec 11 15:49:41 2019 ] 	Mean training loss: 0.7733.
+[ Wed Dec 11 15:49:41 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:49:41 2019 ] Eval epoch: 35
+[ Wed Dec 11 15:49:44 2019 ] 	Mean test loss of 27 batches: 2.1704668468899198.
+[ Wed Dec 11 15:49:44 2019 ] 	Top1: 59.07%
+[ Wed Dec 11 15:49:44 2019 ] 	Top5: 92.09%
+[ Wed Dec 11 15:49:44 2019 ] Training epoch: 36
+[ Wed Dec 11 15:49:59 2019 ] 	Mean training loss: 0.7680.
+[ Wed Dec 11 15:49:59 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:49:59 2019 ] Eval epoch: 36
+[ Wed Dec 11 15:50:02 2019 ] 	Mean test loss of 27 batches: 1.9684658536204585.
+[ Wed Dec 11 15:50:02 2019 ] 	Top1: 61.40%
+[ Wed Dec 11 15:50:02 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 15:50:02 2019 ] Training epoch: 37
+[ Wed Dec 11 15:50:17 2019 ] 	Mean training loss: 0.7523.
+[ Wed Dec 11 15:50:17 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:50:17 2019 ] Eval epoch: 37
+[ Wed Dec 11 15:50:20 2019 ] 	Mean test loss of 27 batches: 2.1100039460040905.
+[ Wed Dec 11 15:50:20 2019 ] 	Top1: 58.60%
+[ Wed Dec 11 15:50:20 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 15:50:20 2019 ] Training epoch: 38
+[ Wed Dec 11 15:50:35 2019 ] 	Mean training loss: 0.7195.
+[ Wed Dec 11 15:50:35 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:50:35 2019 ] Eval epoch: 38
+[ Wed Dec 11 15:50:39 2019 ] 	Mean test loss of 27 batches: 2.0327032892792314.
+[ Wed Dec 11 15:50:39 2019 ] 	Top1: 61.86%
+[ Wed Dec 11 15:50:39 2019 ] 	Top5: 92.56%
+[ Wed Dec 11 15:50:39 2019 ] Training epoch: 39
+[ Wed Dec 11 15:50:53 2019 ] 	Mean training loss: 0.6920.
+[ Wed Dec 11 15:50:53 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:50:53 2019 ] Eval epoch: 39
+[ Wed Dec 11 15:50:57 2019 ] 	Mean test loss of 27 batches: 1.9727868570221796.
+[ Wed Dec 11 15:50:57 2019 ] 	Top1: 57.21%
+[ Wed Dec 11 15:50:57 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 15:50:57 2019 ] Training epoch: 40
+[ Wed Dec 11 15:51:11 2019 ] 	Mean training loss: 0.6565.
+[ Wed Dec 11 15:51:11 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:51:11 2019 ] Eval epoch: 40
+[ Wed Dec 11 15:51:15 2019 ] 	Mean test loss of 27 batches: 2.002442666777858.
+[ Wed Dec 11 15:51:15 2019 ] 	Top1: 62.79%
+[ Wed Dec 11 15:51:15 2019 ] 	Top5: 93.02%
+[ Wed Dec 11 15:51:15 2019 ] Training epoch: 41
+[ Wed Dec 11 15:51:29 2019 ] 	Mean training loss: 0.6385.
+[ Wed Dec 11 15:51:29 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:51:29 2019 ] Eval epoch: 41
+[ Wed Dec 11 15:51:32 2019 ] 	Mean test loss of 27 batches: 1.9717747392477813.
+[ Wed Dec 11 15:51:32 2019 ] 	Top1: 60.93%
+[ Wed Dec 11 15:51:32 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 15:51:32 2019 ] Training epoch: 42
+[ Wed Dec 11 15:51:47 2019 ] 	Mean training loss: 0.6624.
+[ Wed Dec 11 15:51:47 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:51:47 2019 ] Eval epoch: 42
+[ Wed Dec 11 15:51:51 2019 ] 	Mean test loss of 27 batches: 1.7185113297568426.
+[ Wed Dec 11 15:51:51 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 15:51:51 2019 ] 	Top5: 94.88%
+[ Wed Dec 11 15:51:51 2019 ] Training epoch: 43
+[ Wed Dec 11 15:52:05 2019 ] 	Mean training loss: 0.6452.
+[ Wed Dec 11 15:52:05 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:52:05 2019 ] Eval epoch: 43
+[ Wed Dec 11 15:52:08 2019 ] 	Mean test loss of 27 batches: 1.8470697115968775.
+[ Wed Dec 11 15:52:08 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 15:52:08 2019 ] 	Top5: 93.49%
+[ Wed Dec 11 15:52:08 2019 ] Training epoch: 44
+[ Wed Dec 11 15:52:23 2019 ] 	Mean training loss: 0.6382.
+[ Wed Dec 11 15:52:23 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:52:23 2019 ] Eval epoch: 44
+[ Wed Dec 11 15:52:26 2019 ] 	Mean test loss of 27 batches: 2.1466644318015486.
+[ Wed Dec 11 15:52:26 2019 ] 	Top1: 61.40%
+[ Wed Dec 11 15:52:26 2019 ] 	Top5: 93.95%
+[ Wed Dec 11 15:52:26 2019 ] Training epoch: 45
+[ Wed Dec 11 15:52:41 2019 ] 	Mean training loss: 0.6536.
+[ Wed Dec 11 15:52:41 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:52:41 2019 ] Eval epoch: 45
+[ Wed Dec 11 15:52:45 2019 ] 	Mean test loss of 27 batches: 1.9423896228825603.
+[ Wed Dec 11 15:52:45 2019 ] 	Top1: 60.47%
+[ Wed Dec 11 15:52:45 2019 ] 	Top5: 94.42%
+[ Wed Dec 11 15:52:45 2019 ] Training epoch: 46
+[ Wed Dec 11 15:52:59 2019 ] 	Mean training loss: 0.6531.
+[ Wed Dec 11 15:52:59 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:52:59 2019 ] Eval epoch: 46
+[ Wed Dec 11 15:53:03 2019 ] 	Mean test loss of 27 batches: 2.0071414664939597.
+[ Wed Dec 11 15:53:03 2019 ] 	Top1: 60.00%
+[ Wed Dec 11 15:53:03 2019 ] 	Top5: 93.95%
+[ Wed Dec 11 15:53:03 2019 ] Training epoch: 47
+[ Wed Dec 11 15:53:17 2019 ] 	Mean training loss: 0.6377.
+[ Wed Dec 11 15:53:17 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:53:17 2019 ] Eval epoch: 47
+[ Wed Dec 11 15:53:21 2019 ] 	Mean test loss of 27 batches: 1.8439032038052876.
+[ Wed Dec 11 15:53:21 2019 ] 	Top1: 62.33%
+[ Wed Dec 11 15:53:21 2019 ] 	Top5: 94.88%
+[ Wed Dec 11 15:53:21 2019 ] Training epoch: 48
+[ Wed Dec 11 15:53:35 2019 ] 	Mean training loss: 0.6173.
+[ Wed Dec 11 15:53:35 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:53:35 2019 ] Eval epoch: 48
+[ Wed Dec 11 15:53:39 2019 ] 	Mean test loss of 27 batches: 1.9936278771471094.
+[ Wed Dec 11 15:53:39 2019 ] 	Top1: 61.86%
+[ Wed Dec 11 15:53:39 2019 ] 	Top5: 95.35%
+[ Wed Dec 11 15:53:39 2019 ] Training epoch: 49
+[ Wed Dec 11 15:53:53 2019 ] 	Mean training loss: 0.6470.
+[ Wed Dec 11 15:53:53 2019 ] 	Time consumption: [Data]10%, [Network]89%
+[ Wed Dec 11 15:53:53 2019 ] Eval epoch: 49
+[ Wed Dec 11 15:53:57 2019 ] 	Mean test loss of 27 batches: 2.0209302791842707.
+[ Wed Dec 11 15:53:57 2019 ] 	Top1: 60.93%
+[ Wed Dec 11 15:53:57 2019 ] 	Top5: 93.02%
+[ Wed Dec 11 15:53:57 2019 ] Training epoch: 50
+[ Wed Dec 11 15:54:11 2019 ] 	Mean training loss: 0.6321.
+[ Wed Dec 11 15:54:11 2019 ] 	Time consumption: [Data]11%, [Network]89%
+[ Wed Dec 11 15:54:11 2019 ] Eval epoch: 50
+[ Wed Dec 11 15:54:15 2019 ] 	Mean test loss of 27 batches: 1.6473306682374742.
+[ Wed Dec 11 15:54:15 2019 ] 	Top1: 63.72%
+[ Wed Dec 11 15:54:15 2019 ] 	Top5: 95.81%
+[ Wed Dec 11 15:57:16 2019 ] Parameters:
+{'model_args': {'num_class': 4, 'graph_args': {'labeling_mode': 'spatial'}, 'num_person': 2, 'num_point': 21, 'graph': 'graph.my_graph.Graph'}, 'num_worker': 32, 'only_train_epoch': 0, 'work_dir': './work_dir/my_agcn', 'num_epoch': 50, 'nesterov': True, 'config': 'config/my_subject_train.yaml', 'log_interval': 100, 'batch_size': 8, 'base_lr': 0.1, 'step': [30, 40], 'device': [0, 1], 'optimizer': 'SGD', 'warm_up_epoch': 0, 'eval_interval': 5, 'phase': 'train', 'save_score': False, 'ignore_weights': [], 'feeder': 'feeders.feeder.Feeder', 'save_interval': 2, 'model': 'model.agcn.Model', 'show_topk': [1, 5], 'train_feeder_args': {'random_choose': False, 'normalization': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'debug': False, 'random_move': False, 'random_shift': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'window_size': -1}, 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'weights': None, 'only_train_part': False, 'print_log': True, 'weight_decay': 0.0001, 'seed': 1, 'start_epoch': 0, 'test_batch_size': 8, 'model_saved_name': './runs/my_cs_agcn'}
+
+[ Wed Dec 11 15:57:16 2019 ] Training epoch: 1
+[ Wed Dec 11 15:57:47 2019 ] Parameters:
+{'nesterov': True, 'save_score': False, 'weight_decay': 0.0001, 'num_epoch': 50, 'work_dir': './work_dir/my_agcn', 'print_log': True, 'base_lr': 0.1, 'model_saved_name': './runs/my_cs_agcn', 'optimizer': 'SGD', 'batch_size': 8, 'train_feeder_args': {'random_shift': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'normalization': False, 'random_choose': False, 'window_size': -1, 'debug': False, 'random_move': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl'}, 'warm_up_epoch': 0, 'only_train_epoch': 0, 'model': 'model.agcn.Model', 'step': [30, 40], 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'device': [0, 1], 'config': 'config/my_subject_train.yaml', 'save_interval': 2, 'eval_interval': 5, 'feeder': 'feeders.feeder.Feeder', 'phase': 'train', 'start_epoch': 0, 'num_worker': 32, 'only_train_part': False, 'show_topk': [1, 5], 'test_batch_size': 8, 'ignore_weights': [], 'weights': None, 'log_interval': 100, 'model_args': {'num_point': 21, 'graph_args': {'labeling_mode': 'spatial'}, 'graph': 'graph.my_graph.Graph', 'num_class': 4, 'num_person': 2}, 'seed': 1}
+
+[ Wed Dec 11 15:57:47 2019 ] Training epoch: 1
+[ Wed Dec 11 16:01:18 2019 ] Parameters:
+{'model': 'model.agcn.Model', 'eval_interval': 5, 'work_dir': './work_dir/my_agcn', 'phase': 'train', 'test_batch_size': 8, 'warm_up_epoch': 0, 'base_lr': 0.1, 'step': [30, 40], 'num_worker': 32, 'ignore_weights': [], 'save_score': False, 'feeder': 'feeders.feeder.Feeder', 'test_feeder_args': {'label_path': './data/mydata/gen/xsub/val_label.pkl', 'data_path': './data/mydata/gen/xsub/val_data_joint.npy'}, 'nesterov': True, 'weight_decay': 0.0001, 'config': 'config/my_subject_train.yaml', 'save_interval': 2, 'only_train_part': False, 'print_log': True, 'show_topk': [1, 5], 'start_epoch': 0, 'model_args': {'num_person': 2, 'num_point': 21, 'graph': 'graph.my_graph.Graph', 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 4}, 'num_epoch': 50, 'optimizer': 'SGD', 'seed': 1, 'model_saved_name': './runs/my_cs_agcn', 'batch_size': 8, 'log_interval': 100, 'weights': None, 'only_train_epoch': 0, 'train_feeder_args': {'random_choose': False, 'random_shift': False, 'window_size': -1, 'debug': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_move': False, 'normalization': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy'}, 'device': [0, 1]}
+
+[ Wed Dec 11 16:01:18 2019 ] Training epoch: 1
+[ Wed Dec 11 16:05:08 2019 ] Parameters:
+{'seed': 1, 'show_topk': [1, 5], 'save_score': False, 'log_interval': 100, 'num_worker': 32, 'model': 'model.agcn.Model', 'feeder': 'feeders.feeder.Feeder', 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'only_train_part': False, 'num_epoch': 50, 'base_lr': 0.1, 'batch_size': 8, 'start_epoch': 0, 'save_interval': 2, 'warm_up_epoch': 0, 'ignore_weights': [], 'config': 'config/my_subject_train.yaml', 'print_log': True, 'test_batch_size': 8, 'model_args': {'num_point': 21, 'num_person': 2, 'num_class': 4, 'graph_args': {'labeling_mode': 'spatial'}, 'graph': 'graph.my_graph.Graph'}, 'optimizer': 'SGD', 'eval_interval': 5, 'model_saved_name': './runs/my_cs_agcn', 'train_feeder_args': {'random_choose': False, 'random_shift': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'window_size': -1, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_move': False, 'debug': False, 'normalization': False}, 'phase': 'train', 'weights': None, 'nesterov': True, 'step': [30, 40], 'work_dir': './work_dir/my_agcn', 'device': [0, 1], 'weight_decay': 0.0001, 'only_train_epoch': 0}
+
+[ Wed Dec 11 16:05:08 2019 ] Training epoch: 1
+[ Wed Dec 11 16:06:31 2019 ] Parameters:
+{'work_dir': './work_dir/my_agcn', 'show_topk': [1, 5], 'model_saved_name': './runs/my_cs_agcn', 'num_worker': 32, 'batch_size': 8, 'weights': None, 'optimizer': 'SGD', 'num_epoch': 50, 'config': 'config/my_subject_train.yaml', 'only_train_epoch': 0, 'step': [30, 40], 'base_lr': 0.1, 'phase': 'train', 'ignore_weights': [], 'start_epoch': 0, 'eval_interval': 5, 'nesterov': True, 'save_interval': 2, 'feeder': 'feeders.feeder.Feeder', 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'train_feeder_args': {'debug': False, 'random_move': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_choose': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'normalization': False, 'window_size': -1, 'random_shift': False}, 'test_batch_size': 8, 'save_score': False, 'log_interval': 100, 'device': [0, 1], 'weight_decay': 0.0001, 'only_train_part': False, 'model': 'model.agcn.Model', 'print_log': True, 'warm_up_epoch': 0, 'model_args': {'num_person': 2, 'graph_args': {'labeling_mode': 'spatial'}, 'num_class': 4, 'graph': 'graph.my_graph.Graph', 'num_point': 21}, 'seed': 1}
+
+[ Wed Dec 11 16:06:31 2019 ] Training epoch: 1
+[ Wed Dec 11 16:16:23 2019 ] Parameters:
+{'model_saved_name': './runs/my_cs_agcn', 'phase': 'train', 'test_feeder_args': {'data_path': './data/mydata/gen/xsub/val_data_joint.npy', 'label_path': './data/mydata/gen/xsub/val_label.pkl'}, 'config': 'config/my_subject_train.yaml', 'show_topk': [1, 5], 'print_log': True, 'num_worker': 32, 'num_epoch': 50, 'warm_up_epoch': 0, 'model_args': {'num_class': 4, 'graph': 'graph.my_graph.Graph', 'num_person': 2, 'graph_args': {'labeling_mode': 'spatial'}, 'num_point': 21}, 'optimizer': 'SGD', 'only_train_epoch': 0, 'only_train_part': False, 'start_epoch': 0, 'nesterov': True, 'eval_interval': 5, 'train_feeder_args': {'window_size': -1, 'random_shift': False, 'normalization': False, 'debug': False, 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'random_move': False, 'random_choose': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy'}, 'save_interval': 2, 'seed': 1, 'device': [0, 1], 'test_batch_size': 8, 'step': [30, 40], 'work_dir': './work_dir/my_agcn', 'feeder': 'feeders.feeder.Feeder', 'model': 'model.agcn.Model', 'log_interval': 100, 'batch_size': 8, 'ignore_weights': [], 'base_lr': 0.1, 'weights': None, 'weight_decay': 0.0001, 'save_score': False}
+
+[ Wed Dec 11 16:16:23 2019 ] Training epoch: 1
+[ Wed Dec 11 16:26:38 2019 ] Parameters:
+{'nesterov': True, 'work_dir': './work_dir/my_agcn', 'seed': 1, 'only_train_part': False, 'only_train_epoch': 0, 'test_batch_size': 8, 'print_log': True, 'model': 'model.agcn.Model', 'config': 'config/my_subject_train.yaml', 'warm_up_epoch': 0, 'weight_decay': 0.0001, 'num_epoch': 50, 'feeder': 'feeders.feeder.Feeder', 'show_topk': [1, 5], 'batch_size': 8, 'weights': None, 'optimizer': 'SGD', 'model_saved_name': './runs/my_cs_agcn', 'base_lr': 0.1, 'ignore_weights': [], 'log_interval': 100, 'num_worker': 32, 'save_interval': 2, 'device': [0, 1], 'save_score': False, 'model_args': {'num_class': 4, 'num_person': 2, 'graph': 'graph.my_graph.Graph', 'num_point': 21, 'graph_args': {'labeling_mode': 'spatial'}}, 'phase': 'train', 'eval_interval': 5, 'train_feeder_args': {'random_choose': False, 'random_shift': False, 'normalization': False, 'random_move': False, 'debug': False, 'data_path': './data/mydata/gen/xsub/train_data_joint.npy', 'label_path': './data/mydata/gen/xsub/train_label.pkl', 'window_size': -1}, 'test_feeder_args': {'label_path': './data/mydata/gen/xsub/val_label.pkl', 'data_path': './data/mydata/gen/xsub/val_data_joint.npy'}, 'start_epoch': 0, 'step': [30, 40]}
+
+[ Wed Dec 11 16:26:38 2019 ] Training epoch: 1
+[ Wed Dec 11 16:26:55 2019 ] 	Mean training loss: 3.2539.
+[ Wed Dec 11 16:26:55 2019 ] 	Time consumption: [Data]07%, [Network]93%
+[ Wed Dec 11 16:26:55 2019 ] Eval epoch: 1
+[ Wed Dec 11 16:26:59 2019 ] 	Mean test loss of 27 batches: 1.0606445327953056.
+[ Wed Dec 11 16:26:59 2019 ] 	Top1: 68.37%
+[ Wed Dec 11 16:26:59 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:26:59 2019 ] Training epoch: 2
+[ Wed Dec 11 16:27:14 2019 ] 	Mean training loss: 0.7465.
+[ Wed Dec 11 16:27:14 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:27:14 2019 ] Eval epoch: 2
+[ Wed Dec 11 16:27:18 2019 ] 	Mean test loss of 27 batches: 0.6044720058087949.
+[ Wed Dec 11 16:27:18 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:27:18 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:27:18 2019 ] Training epoch: 3
+[ Wed Dec 11 16:27:32 2019 ] 	Mean training loss: 0.5361.
+[ Wed Dec 11 16:27:32 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:27:32 2019 ] Eval epoch: 3
+[ Wed Dec 11 16:27:36 2019 ] 	Mean test loss of 27 batches: 0.6534760748898542.
+[ Wed Dec 11 16:27:36 2019 ] 	Top1: 83.26%
+[ Wed Dec 11 16:27:36 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:27:36 2019 ] Training epoch: 4
+[ Wed Dec 11 16:27:51 2019 ] 	Mean training loss: 0.5185.
+[ Wed Dec 11 16:27:51 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:27:51 2019 ] Eval epoch: 4
+[ Wed Dec 11 16:27:55 2019 ] 	Mean test loss of 27 batches: 0.8800355946576154.
+[ Wed Dec 11 16:27:55 2019 ] 	Top1: 82.33%
+[ Wed Dec 11 16:27:55 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:27:55 2019 ] Training epoch: 5
+[ Wed Dec 11 16:28:10 2019 ] 	Mean training loss: 0.5176.
+[ Wed Dec 11 16:28:10 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:28:10 2019 ] Eval epoch: 5
+[ Wed Dec 11 16:28:14 2019 ] 	Mean test loss of 27 batches: 1.0728865762551625.
+[ Wed Dec 11 16:28:14 2019 ] 	Top1: 81.86%
+[ Wed Dec 11 16:28:14 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:28:14 2019 ] Training epoch: 6
+[ Wed Dec 11 16:28:29 2019 ] 	Mean training loss: 0.5675.
+[ Wed Dec 11 16:28:29 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:28:29 2019 ] Eval epoch: 6
+[ Wed Dec 11 16:28:33 2019 ] 	Mean test loss of 27 batches: 1.0585159824954138.
+[ Wed Dec 11 16:28:33 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:28:33 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:28:33 2019 ] Training epoch: 7
+[ Wed Dec 11 16:28:48 2019 ] 	Mean training loss: 0.5103.
+[ Wed Dec 11 16:28:48 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:28:48 2019 ] Eval epoch: 7
+[ Wed Dec 11 16:28:52 2019 ] 	Mean test loss of 27 batches: 0.8829497407983851.
+[ Wed Dec 11 16:28:52 2019 ] 	Top1: 76.74%
+[ Wed Dec 11 16:28:52 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:28:52 2019 ] Training epoch: 8
+[ Wed Dec 11 16:29:07 2019 ] 	Mean training loss: 0.5003.
+[ Wed Dec 11 16:29:07 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:29:07 2019 ] Eval epoch: 8
+[ Wed Dec 11 16:29:11 2019 ] 	Mean test loss of 27 batches: 0.5870822105142806.
+[ Wed Dec 11 16:29:11 2019 ] 	Top1: 82.79%
+[ Wed Dec 11 16:29:11 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:29:11 2019 ] Training epoch: 9
+[ Wed Dec 11 16:29:26 2019 ] 	Mean training loss: 0.5194.
+[ Wed Dec 11 16:29:26 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:29:26 2019 ] Eval epoch: 9
+[ Wed Dec 11 16:29:30 2019 ] 	Mean test loss of 27 batches: 0.7190544842569916.
+[ Wed Dec 11 16:29:30 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:29:30 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:29:30 2019 ] Training epoch: 10
+[ Wed Dec 11 16:29:45 2019 ] 	Mean training loss: 0.4426.
+[ Wed Dec 11 16:29:45 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:29:45 2019 ] Eval epoch: 10
+[ Wed Dec 11 16:29:49 2019 ] 	Mean test loss of 27 batches: 0.6871891479801249.
+[ Wed Dec 11 16:29:49 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:29:49 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:29:49 2019 ] Training epoch: 11
+[ Wed Dec 11 16:30:04 2019 ] 	Mean training loss: 0.4558.
+[ Wed Dec 11 16:30:04 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 16:30:04 2019 ] Eval epoch: 11
+[ Wed Dec 11 16:30:08 2019 ] 	Mean test loss of 27 batches: 0.7313936336172951.
+[ Wed Dec 11 16:30:08 2019 ] 	Top1: 83.72%
+[ Wed Dec 11 16:30:08 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:30:08 2019 ] Training epoch: 12
+[ Wed Dec 11 16:30:22 2019 ] 	Mean training loss: 0.4883.
+[ Wed Dec 11 16:30:22 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:30:22 2019 ] Eval epoch: 12
+[ Wed Dec 11 16:30:26 2019 ] 	Mean test loss of 27 batches: 0.6785172130222674.
+[ Wed Dec 11 16:30:26 2019 ] 	Top1: 85.58%
+[ Wed Dec 11 16:30:26 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:30:26 2019 ] Training epoch: 13
+[ Wed Dec 11 16:30:41 2019 ] 	Mean training loss: 0.4217.
+[ Wed Dec 11 16:30:41 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:30:41 2019 ] Eval epoch: 13
+[ Wed Dec 11 16:30:44 2019 ] 	Mean test loss of 27 batches: 0.7215191335589798.
+[ Wed Dec 11 16:30:44 2019 ] 	Top1: 78.60%
+[ Wed Dec 11 16:30:44 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:30:44 2019 ] Training epoch: 14
+[ Wed Dec 11 16:30:59 2019 ] 	Mean training loss: 0.4281.
+[ Wed Dec 11 16:30:59 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 16:30:59 2019 ] Eval epoch: 14
+[ Wed Dec 11 16:31:03 2019 ] 	Mean test loss of 27 batches: 0.643154634921639.
+[ Wed Dec 11 16:31:03 2019 ] 	Top1: 83.26%
+[ Wed Dec 11 16:31:03 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:31:03 2019 ] Training epoch: 15
+[ Wed Dec 11 16:31:18 2019 ] 	Mean training loss: 0.4875.
+[ Wed Dec 11 16:31:18 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:31:18 2019 ] Eval epoch: 15
+[ Wed Dec 11 16:31:22 2019 ] 	Mean test loss of 27 batches: 0.7079606448058728.
+[ Wed Dec 11 16:31:22 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:31:22 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:31:22 2019 ] Training epoch: 16
+[ Wed Dec 11 16:31:37 2019 ] 	Mean training loss: 0.4580.
+[ Wed Dec 11 16:31:37 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:31:37 2019 ] Eval epoch: 16
+[ Wed Dec 11 16:31:41 2019 ] 	Mean test loss of 27 batches: 0.6533328631409893.
+[ Wed Dec 11 16:31:41 2019 ] 	Top1: 84.19%
+[ Wed Dec 11 16:31:41 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:31:41 2019 ] Training epoch: 17
+[ Wed Dec 11 16:31:56 2019 ] 	Mean training loss: 0.4141.
+[ Wed Dec 11 16:31:56 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:31:56 2019 ] Eval epoch: 17
+[ Wed Dec 11 16:31:59 2019 ] 	Mean test loss of 27 batches: 0.619411446430065.
+[ Wed Dec 11 16:31:59 2019 ] 	Top1: 86.05%
+[ Wed Dec 11 16:31:59 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:31:59 2019 ] Training epoch: 18
+[ Wed Dec 11 16:32:14 2019 ] 	Mean training loss: 0.4275.
+[ Wed Dec 11 16:32:14 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:32:14 2019 ] Eval epoch: 18
+[ Wed Dec 11 16:32:17 2019 ] 	Mean test loss of 27 batches: 0.7503928393125534.
+[ Wed Dec 11 16:32:17 2019 ] 	Top1: 84.19%
+[ Wed Dec 11 16:32:17 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:32:17 2019 ] Training epoch: 19
+[ Wed Dec 11 16:32:32 2019 ] 	Mean training loss: 0.4672.
+[ Wed Dec 11 16:32:32 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:32:32 2019 ] Eval epoch: 19
+[ Wed Dec 11 16:32:36 2019 ] 	Mean test loss of 27 batches: 0.7028932836320665.
+[ Wed Dec 11 16:32:36 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:32:36 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:32:36 2019 ] Training epoch: 20
+[ Wed Dec 11 16:32:50 2019 ] 	Mean training loss: 0.4350.
+[ Wed Dec 11 16:32:50 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:32:50 2019 ] Eval epoch: 20
+[ Wed Dec 11 16:32:54 2019 ] 	Mean test loss of 27 batches: 0.8217315281982775.
+[ Wed Dec 11 16:32:54 2019 ] 	Top1: 85.58%
+[ Wed Dec 11 16:32:54 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:32:54 2019 ] Training epoch: 21
+[ Wed Dec 11 16:33:09 2019 ] 	Mean training loss: 0.4278.
+[ Wed Dec 11 16:33:09 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:33:09 2019 ] Eval epoch: 21
+[ Wed Dec 11 16:33:12 2019 ] 	Mean test loss of 27 batches: 0.6901763125702187.
+[ Wed Dec 11 16:33:12 2019 ] 	Top1: 71.63%
+[ Wed Dec 11 16:33:12 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:33:12 2019 ] Training epoch: 22
+[ Wed Dec 11 16:33:27 2019 ] 	Mean training loss: 0.4432.
+[ Wed Dec 11 16:33:27 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 16:33:27 2019 ] Eval epoch: 22
+[ Wed Dec 11 16:33:31 2019 ] 	Mean test loss of 27 batches: 0.6602187780318437.
+[ Wed Dec 11 16:33:31 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:33:31 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:33:31 2019 ] Training epoch: 23
+[ Wed Dec 11 16:33:46 2019 ] 	Mean training loss: 0.4251.
+[ Wed Dec 11 16:33:46 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:33:46 2019 ] Eval epoch: 23
+[ Wed Dec 11 16:33:49 2019 ] 	Mean test loss of 27 batches: 0.571090140276485.
+[ Wed Dec 11 16:33:49 2019 ] 	Top1: 86.05%
+[ Wed Dec 11 16:33:49 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:33:49 2019 ] Training epoch: 24
+[ Wed Dec 11 16:34:04 2019 ] 	Mean training loss: 0.3999.
+[ Wed Dec 11 16:34:04 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:34:04 2019 ] Eval epoch: 24
+[ Wed Dec 11 16:34:08 2019 ] 	Mean test loss of 27 batches: 0.6423300079725407.
+[ Wed Dec 11 16:34:08 2019 ] 	Top1: 84.19%
+[ Wed Dec 11 16:34:08 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:34:08 2019 ] Training epoch: 25
+[ Wed Dec 11 16:34:23 2019 ] 	Mean training loss: 0.3936.
+[ Wed Dec 11 16:34:23 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:34:23 2019 ] Eval epoch: 25
+[ Wed Dec 11 16:34:27 2019 ] 	Mean test loss of 27 batches: 0.8883914919915022.
+[ Wed Dec 11 16:34:27 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:34:27 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:34:27 2019 ] Training epoch: 26
+[ Wed Dec 11 16:34:42 2019 ] 	Mean training loss: 0.4039.
+[ Wed Dec 11 16:34:42 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:34:42 2019 ] Eval epoch: 26
+[ Wed Dec 11 16:34:46 2019 ] 	Mean test loss of 27 batches: 1.0842137314655163.
+[ Wed Dec 11 16:34:46 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:34:46 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:34:46 2019 ] Training epoch: 27
+[ Wed Dec 11 16:35:00 2019 ] 	Mean training loss: 0.4006.
+[ Wed Dec 11 16:35:00 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:35:00 2019 ] Eval epoch: 27
+[ Wed Dec 11 16:35:04 2019 ] 	Mean test loss of 27 batches: 0.8398398530704004.
+[ Wed Dec 11 16:35:04 2019 ] 	Top1: 86.05%
+[ Wed Dec 11 16:35:04 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:35:04 2019 ] Training epoch: 28
+[ Wed Dec 11 16:35:18 2019 ] 	Mean training loss: 0.4078.
+[ Wed Dec 11 16:35:18 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:35:19 2019 ] Eval epoch: 28
+[ Wed Dec 11 16:35:22 2019 ] 	Mean test loss of 27 batches: 0.6338555271978732.
+[ Wed Dec 11 16:35:22 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:35:22 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:35:22 2019 ] Training epoch: 29
+[ Wed Dec 11 16:35:37 2019 ] 	Mean training loss: 0.4399.
+[ Wed Dec 11 16:35:37 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:35:37 2019 ] Eval epoch: 29
+[ Wed Dec 11 16:35:41 2019 ] 	Mean test loss of 27 batches: 0.7949208385414548.
+[ Wed Dec 11 16:35:41 2019 ] 	Top1: 82.79%
+[ Wed Dec 11 16:35:41 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:35:41 2019 ] Training epoch: 30
+[ Wed Dec 11 16:35:56 2019 ] 	Mean training loss: 0.3566.
+[ Wed Dec 11 16:35:56 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:35:56 2019 ] Eval epoch: 30
+[ Wed Dec 11 16:35:59 2019 ] 	Mean test loss of 27 batches: 1.5314345862026568.
+[ Wed Dec 11 16:35:59 2019 ] 	Top1: 81.40%
+[ Wed Dec 11 16:35:59 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:35:59 2019 ] Training epoch: 31
+[ Wed Dec 11 16:36:14 2019 ] 	Mean training loss: 0.3486.
+[ Wed Dec 11 16:36:14 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:36:14 2019 ] Eval epoch: 31
+[ Wed Dec 11 16:36:18 2019 ] 	Mean test loss of 27 batches: 0.9282845992732931.
+[ Wed Dec 11 16:36:18 2019 ] 	Top1: 82.79%
+[ Wed Dec 11 16:36:18 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:36:18 2019 ] Training epoch: 32
+[ Wed Dec 11 16:36:33 2019 ] 	Mean training loss: 0.3451.
+[ Wed Dec 11 16:36:33 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:36:33 2019 ] Eval epoch: 32
+[ Wed Dec 11 16:36:36 2019 ] 	Mean test loss of 27 batches: 0.9367446248178128.
+[ Wed Dec 11 16:36:37 2019 ] 	Top1: 83.72%
+[ Wed Dec 11 16:36:37 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:36:37 2019 ] Training epoch: 33
+[ Wed Dec 11 16:36:52 2019 ] 	Mean training loss: 0.3062.
+[ Wed Dec 11 16:36:52 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:36:52 2019 ] Eval epoch: 33
+[ Wed Dec 11 16:36:56 2019 ] 	Mean test loss of 27 batches: 0.8158735081001565.
+[ Wed Dec 11 16:36:56 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:36:56 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:36:56 2019 ] Training epoch: 34
+[ Wed Dec 11 16:37:11 2019 ] 	Mean training loss: 0.3236.
+[ Wed Dec 11 16:37:11 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:37:11 2019 ] Eval epoch: 34
+[ Wed Dec 11 16:37:15 2019 ] 	Mean test loss of 27 batches: 0.7969014048576355.
+[ Wed Dec 11 16:37:15 2019 ] 	Top1: 86.51%
+[ Wed Dec 11 16:37:15 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:37:15 2019 ] Training epoch: 35
+[ Wed Dec 11 16:37:30 2019 ] 	Mean training loss: 0.3095.
+[ Wed Dec 11 16:37:30 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:37:30 2019 ] Eval epoch: 35
+[ Wed Dec 11 16:37:33 2019 ] 	Mean test loss of 27 batches: 0.9651871698874014.
+[ Wed Dec 11 16:37:33 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:37:33 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:37:33 2019 ] Training epoch: 36
+[ Wed Dec 11 16:37:48 2019 ] 	Mean training loss: 0.2962.
+[ Wed Dec 11 16:37:48 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:37:48 2019 ] Eval epoch: 36
+[ Wed Dec 11 16:37:52 2019 ] 	Mean test loss of 27 batches: 0.8513270340583943.
+[ Wed Dec 11 16:37:52 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:37:52 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:37:52 2019 ] Training epoch: 37
+[ Wed Dec 11 16:38:07 2019 ] 	Mean training loss: 0.3031.
+[ Wed Dec 11 16:38:07 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:38:07 2019 ] Eval epoch: 37
+[ Wed Dec 11 16:38:11 2019 ] 	Mean test loss of 27 batches: 0.9175197184085846.
+[ Wed Dec 11 16:38:11 2019 ] 	Top1: 85.58%
+[ Wed Dec 11 16:38:11 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:38:11 2019 ] Training epoch: 38
+[ Wed Dec 11 16:38:27 2019 ] 	Mean training loss: 0.3025.
+[ Wed Dec 11 16:38:27 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:38:27 2019 ] Eval epoch: 38
+[ Wed Dec 11 16:38:30 2019 ] 	Mean test loss of 27 batches: 0.7808407677544488.
+[ Wed Dec 11 16:38:30 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:38:30 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:38:30 2019 ] Training epoch: 39
+[ Wed Dec 11 16:38:46 2019 ] 	Mean training loss: 0.2888.
+[ Wed Dec 11 16:38:46 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:38:46 2019 ] Eval epoch: 39
+[ Wed Dec 11 16:38:50 2019 ] 	Mean test loss of 27 batches: 0.8380490491787592.
+[ Wed Dec 11 16:38:50 2019 ] 	Top1: 81.40%
+[ Wed Dec 11 16:38:50 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:38:50 2019 ] Training epoch: 40
+[ Wed Dec 11 16:39:05 2019 ] 	Mean training loss: 0.2790.
+[ Wed Dec 11 16:39:05 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 16:39:05 2019 ] Eval epoch: 40
+[ Wed Dec 11 16:39:09 2019 ] 	Mean test loss of 27 batches: 0.866775780916214.
+[ Wed Dec 11 16:39:09 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:39:09 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:39:09 2019 ] Training epoch: 41
+[ Wed Dec 11 16:39:24 2019 ] 	Mean training loss: 0.2851.
+[ Wed Dec 11 16:39:24 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:39:24 2019 ] Eval epoch: 41
+[ Wed Dec 11 16:39:28 2019 ] 	Mean test loss of 27 batches: 0.9036015570163727.
+[ Wed Dec 11 16:39:28 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:39:28 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:39:28 2019 ] Training epoch: 42
+[ Wed Dec 11 16:39:43 2019 ] 	Mean training loss: 0.2580.
+[ Wed Dec 11 16:39:43 2019 ] 	Time consumption: [Data]13%, [Network]87%
+[ Wed Dec 11 16:39:43 2019 ] Eval epoch: 42
+[ Wed Dec 11 16:39:47 2019 ] 	Mean test loss of 27 batches: 0.9801769775372965.
+[ Wed Dec 11 16:39:47 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:39:47 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:39:47 2019 ] Training epoch: 43
+[ Wed Dec 11 16:40:02 2019 ] 	Mean training loss: 0.2785.
+[ Wed Dec 11 16:40:02 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:40:02 2019 ] Eval epoch: 43
+[ Wed Dec 11 16:40:06 2019 ] 	Mean test loss of 27 batches: 0.9187950022794582.
+[ Wed Dec 11 16:40:06 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:40:06 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:40:06 2019 ] Training epoch: 44
+[ Wed Dec 11 16:40:21 2019 ] 	Mean training loss: 0.2937.
+[ Wed Dec 11 16:40:21 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:40:21 2019 ] Eval epoch: 44
+[ Wed Dec 11 16:40:25 2019 ] 	Mean test loss of 27 batches: 0.9206219183074104.
+[ Wed Dec 11 16:40:25 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:40:25 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:40:25 2019 ] Training epoch: 45
+[ Wed Dec 11 16:40:40 2019 ] 	Mean training loss: 0.2607.
+[ Wed Dec 11 16:40:40 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:40:40 2019 ] Eval epoch: 45
+[ Wed Dec 11 16:40:44 2019 ] 	Mean test loss of 27 batches: 0.8673943998637023.
+[ Wed Dec 11 16:40:44 2019 ] 	Top1: 84.65%
+[ Wed Dec 11 16:40:44 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:40:44 2019 ] Training epoch: 46
+[ Wed Dec 11 16:40:59 2019 ] 	Mean training loss: 0.2834.
+[ Wed Dec 11 16:40:59 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:40:59 2019 ] Eval epoch: 46
+[ Wed Dec 11 16:41:03 2019 ] 	Mean test loss of 27 batches: 1.0107914799893345.
+[ Wed Dec 11 16:41:03 2019 ] 	Top1: 86.05%
+[ Wed Dec 11 16:41:03 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:41:03 2019 ] Training epoch: 47
+[ Wed Dec 11 16:41:18 2019 ] 	Mean training loss: 0.2739.
+[ Wed Dec 11 16:41:18 2019 ] 	Time consumption: [Data]12%, [Network]88%
+[ Wed Dec 11 16:41:18 2019 ] Eval epoch: 47
+[ Wed Dec 11 16:41:22 2019 ] 	Mean test loss of 27 batches: 0.8657593572581256.
+[ Wed Dec 11 16:41:22 2019 ] 	Top1: 85.58%
+[ Wed Dec 11 16:41:22 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:41:22 2019 ] Training epoch: 48
+[ Wed Dec 11 16:41:37 2019 ] 	Mean training loss: 0.2625.
+[ Wed Dec 11 16:41:37 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:41:37 2019 ] Eval epoch: 48
+[ Wed Dec 11 16:41:40 2019 ] 	Mean test loss of 27 batches: 0.935222116333467.
+[ Wed Dec 11 16:41:40 2019 ] 	Top1: 85.12%
+[ Wed Dec 11 16:41:40 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:41:40 2019 ] Training epoch: 49
+[ Wed Dec 11 16:41:55 2019 ] 	Mean training loss: 0.2621.
+[ Wed Dec 11 16:41:55 2019 ] 	Time consumption: [Data]11%, [Network]88%
+[ Wed Dec 11 16:41:55 2019 ] Eval epoch: 49
+[ Wed Dec 11 16:41:59 2019 ] 	Mean test loss of 27 batches: 1.0934345054405707.
+[ Wed Dec 11 16:41:59 2019 ] 	Top1: 83.72%
+[ Wed Dec 11 16:41:59 2019 ] 	Top5: 100.00%
+[ Wed Dec 11 16:41:59 2019 ] Training epoch: 50
+[ Wed Dec 11 16:42:14 2019 ] 	Mean training loss: 0.2610.
+[ Wed Dec 11 16:42:14 2019 ] 	Time consumption: [Data]12%, [Network]87%
+[ Wed Dec 11 16:42:14 2019 ] Eval epoch: 50
+[ Wed Dec 11 16:42:18 2019 ] 	Mean test loss of 27 batches: 0.858878978424602.
+[ Wed Dec 11 16:42:18 2019 ] 	Top1: 81.86%
+[ Wed Dec 11 16:42:18 2019 ] 	Top5: 100.00%
