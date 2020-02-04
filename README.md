@@ -5,7 +5,7 @@
 ## 프로젝트 소개
 * **Hand_Signal_Recognition_for_Safety(HSRS)** 는 사람의 수신호를 감지 및 분류 모델 개발 프로젝트이다.
 * **총 네 개의 step**으로 이루어져 있으며 서로 다른 **두개의 Back bone 모델**을 사용하여 두가지 버전으로 개발되고 있다.
-* **verstion 1**: VNect base model,    **version 2** : VideoPose3D base model
+* **verstion 1**: VNect base model([link](https://github.com/kim-seoyoung/hand_signal_recognition_for_safety/tree/master/vnect)),    **version 2** : VideoPose3D base model([link]())
 
 ## Step1 : Prepareing training Data
 
