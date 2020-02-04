@@ -50,3 +50,6 @@
 
 
 ## Step4 : Building Classification model
+
+*Two-Stream Adaptive Graph Convolutional Networks을  Back bone model로한 분류 모델 구축
+![image](https://user-images.githubusercontent.com/39910353/73735165-2c227e00-4782-11ea-999e-c882b659b5cd.png)
