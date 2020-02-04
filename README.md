@@ -31,13 +31,13 @@
 ## Step2 : Building Pose Estimation model
 
 ### VideoPose3D model
-* [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+* [VideoPose3D]()
 * 동영상의 각 프레임으로 부터 2D 관절을 먼저 추출한 후 2D관절의 연속성에 따라 3D 관절을 추출해 내는 모델로 17개 관절을 추출한다.
 * 2D 관절을 추출하고 3D 관절을 추출하는 2가지 과정을 거친다. 이때 2D 관절은 'Detectron'모델을 사용한다
 
 
 ### VNect model
-* [VNect_pose_estimaion](https://github.com/kim-seoyoung/bestsafe/tree/master/pose_estimation)
+* [VNect_pose_estimaion]()
 
 
 
