@@ -38,7 +38,8 @@
 
 ### VNect model
 * [VNect_pose_estimaion]()
-
+* Heatmap과 Location Map을 사용하여 3D 관절을 추출한다.
+* 총 21개의 관절을 추출한다.
 
 
 
