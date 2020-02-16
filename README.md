@@ -19,14 +19,9 @@
   
 ### Signal 참고
 
-* **ISO 16715 크레인 안전 수신호**
-
-![image](https://user-images.githubusercontent.com/39910353/73734042-5c691d00-4780-11ea-844a-cd49c1ceb132.png)
-
-* **덤프트럭 수신호**
-
-![image](https://user-images.githubusercontent.com/39910353/73734074-6a1ea280-4780-11ea-91be-1f5aa6698a03.png)
-
+|**ISO 16715 크레인 안전 수신호**|**덤프트럭 수신호**|
+|---|---|
+| <img src="https://user-images.githubusercontent.com/39910353/73734042-5c691d00-4780-11ea-844a-cd49c1ceb132.png" width="300">|<img src="https://user-images.githubusercontent.com/39910353/73734074-6a1ea280-4780-11ea-91be-1f5aa6698a03.png" width="300">|
 
 ## Step2 : Building Pose Estimation model
 
